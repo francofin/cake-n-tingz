@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from pages.models import Team
 # Create your views here.
 
 def index(request):
@@ -7,5 +7,8 @@ def index(request):
     return render(request, 'pages/index.html')
 
 def about(request):
-
-    return render(request, 'pages/about.html')
+    teams = Team.objects.all()
+    data = {
+        'teams': teams,
+    }
+    return render(request, 'pages/about.html', data)
