@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
+
+{% block title %} | Contact {% endblock %}
+
 {% block content %}
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');">
+    <section>
+      <img class="hero-wrap hero-wrap-2" src="{% static 'images/bg_4.jpg' %}" alt="">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -18,18 +22,24 @@
       <div class="container">
         <div class="row block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-5 contact-form">
+            <form action="{% url 'contact' %}" class="bg-light p-5 contact-form" method="POST">
+              {% csrf_token %}
+              {% if user.is_authenticated %}
+                <input type="hidden" name="user_id" value="{{user.id}}">
+              {% else %}
+                <input type="hidden" name="user_id" value="0">
+              {% endif %}
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" name="first_name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="email" name="email" class="form-control" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
@@ -52,7 +62,7 @@
           <div class="col-md-3 d-flex">
           	<div class="align-self-stretch box p-4 text-center">
           			<img class="icon d-flex align-items-center justify-content-center" src="{{ team.photo.url}}" alt="">
-          		<h3 class="mb-4">{{team.first_name}} {{team.last_name}}</h3>
+          		<h3 class="mb-4">{{team.first_name}} </h3>
               <ul class="ftco-footer-social list-unstyled">
               <li class="ftco-animate"><a href="{{ team.twitter_link }}" target="_blank"><span class="icon-twitter"></span></a></li>
               <li class="ftco-animate"><a href="{{ team.facebook_link }}" target="_blank"><span class="icon-facebook"></span></a></li>

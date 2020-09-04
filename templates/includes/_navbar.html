@@ -59,8 +59,52 @@
           Contact
         </a>
         </li>
-        <li class="nav-item"><a href="contact.html" class="nav-link">Register</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link">Log in</a></li>
+        {% if user.is_authenticated %}
+        <li
+        {% if 'dashboard' in request.path %}
+        class="nav-item active"
+        {% else %}
+        class="nav-item"
+        {% endif %}>
+        <a href="{% url 'dashboard' %}" class="nav-link">
+          Dashboard
+        </a>
+      </li >
+      <li {% if 'logout' in request.path %}
+      class="nav-item active"
+      {% else %}
+      class="nav-item"
+      {% endif %}>
+      <a href="javascript:{document.getElementById('logout').submit()}" class="nav-link">
+        Logout
+      </a>
+        <form action="{% url 'logout' %}" id = "logout" method="POST">
+          {% csrf_token %}
+          <input type="hidden">
+        </form>
+    </li>
+        {% else %}
+        <li
+        {% if 'register' in request.path %}
+        class="nav-item active"
+        {% else %}
+        class="nav-item"
+        {% endif %}>
+        <a href="{% url 'register' %}" class="nav-link">
+          Register
+        </a>
+      </li>
+        <li
+        {% if 'login' in request.path %}
+        class="nav-item active"
+        {% else %}
+        class="nav-item"
+        {% endif %}>
+        <a href="{% url 'login' %}" class="nav-link">
+          Log in
+        </a>
+      </li>
+      {% endif %}
       </ul>
     </div>
   </div>

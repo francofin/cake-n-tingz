@@ -28,4 +28,22 @@ class Food(models.Model):
     owner = models.CharField(max_length=200)
     igredients = MultiSelectField(choices=ingredients_list)
     is_featured = models.BooleanField(default=False)
+    is_for_home_page = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
+
+    def __str__(self):
+        return self.recipe_title
+
+
+class Comment(models.Model):
+
+    first_name = models.CharField(max_length=100)
+    email = models.EmailField(max_length=100)
+    website = models.URLField(max_length=200,  blank=True)
+    food_id = models.IntegerField()
+    comments = models.TextField()
+    user_id = models.IntegerField(blank=True)
+    create_date = models.DateTimeField(blank=True, default=datetime.now)
+
+    def __str__(self):
+        return self.comments

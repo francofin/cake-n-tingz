@@ -1,18 +1,35 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %} | Register {% endblock %}
+{% load socialaccount %}
+{% providers_media_js %}
+
 {% block content %}
+
+<section>
+  <img class="hero-wrap hero-wrap-2" src="{% static 'images/bg_4.jpg' %}" alt="">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+        <h1 class="mb-3 bread">Sign Up</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact us<i class="ion-ios-arrow-forward"></i></span></p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="register"  class="bg-light py-5">
   <div class="container">
     <div class="row">
       <div class="col-md-6 mx-auto">
         <div class="card">
-          <div class="card-header bg-primary text-white">
+          <div class="card-header bg-secondary text-white">
             <h4>
-              <i class="fas fa-user-plus"></i> Register</h4>
+              <i class="fas fa-user-plus"></i>Register</h4>
           </div>
           <div class="card-body">
-          
+            {% include 'includes/messages.html' %}
               <form action="{% url 'register' %}" method="POST">
                 {% csrf_token %}
                 <div class="form-group">
@@ -40,6 +57,15 @@
                 <input type="password" name="password2" class="form-control" required>
               </div>
               <input type="submit" value="Register" class="btn btn-secondary btn-block">
+              <div class="extra-login clearfix">
+               <span>Or Login With</span>
+               </div>
+               <div class="align-self-stretch box p-4 text-center">
+               <ul class="ftco-social list-unstyled">
+                 <li><a href="{% provider_login_url 'facebook' method='oauth2' %}" class="ftco-animate"><span class="icon-facebook">Facebook</span></a></li>
+                 <li><a href="{% provider_login_url 'google' %}" class="ftco-animate"><span class="icon-google">Google</span></a></li>
+               </ul>
+               </div>
             </form>
           </div>
         </div>
