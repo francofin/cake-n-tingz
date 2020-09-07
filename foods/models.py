@@ -2,7 +2,11 @@ from django.db import models
 from datetime import datetime
 from ckeditor.fields import RichTextField
 from multiselectfield import MultiSelectField
+from django.contrib.auth.models import User
+
 # Create your models here.
+user = User()
+
 class Food(models.Model):
 
     ingredients_list = (
@@ -30,10 +34,24 @@ class Food(models.Model):
     is_featured = models.BooleanField(default=False)
     is_for_home_page = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
+    user_id = models.ForeignKey(user, on_delete=models.CASCADE, related_name='chef', null=True)
+    is_holiday_recipe = models.BooleanField(default=False)
+    is_featured_for_home_page = models.BooleanField(default=False)
+    is_for_slider = models.BooleanField(default=False)
 
     def __str__(self):
         return self.recipe_title
 
+class Dashboard(models.Model):
+    food_title = models.CharField(max_length=300, default="", editable=False)
+    user_id = models.IntegerField()
+    food_id = models.IntegerField()
+    food_photo = models.ImageField(blank=True)
+    food_description = models.TextField(null=True)
+    create_date = models.DateTimeField(blank=True, default=datetime.now)
+
+    def __int__(self):
+        return self.food_title
 
 class Comment(models.Model):
 
@@ -46,4 +64,4 @@ class Comment(models.Model):
     create_date = models.DateTimeField(blank=True, default=datetime.now)
 
     def __str__(self):
-        return self.comments
+        return self.email

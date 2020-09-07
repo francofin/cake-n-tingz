@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
+from foods.models import Dashboard, Food
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -50,9 +52,16 @@ def register(request):
             return redirect('register')
     else:
         return render(request, 'pages/register.html')
-
+@login_required(login_url='login')
 def dashboard(request):
-    return render(request, 'pages/dashboard.html')
+    user_foods = Dashboard.objects.all().filter(user_id=request.user.id)
+
+    articles = {
+        'food_article':user_foods,
+    }
+
+    return render(request, 'pages/dashboard.html', articles)
+
 
 def logout(request):
     if request.method=='POST':

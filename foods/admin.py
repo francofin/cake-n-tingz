@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Food, Comment
+from .models import Food, Comment, Dashboard
 
 # Register your models here.
 class CommentAdmin(admin.ModelAdmin):
@@ -11,3 +11,4 @@ class CommentAdmin(admin.ModelAdmin):
 
 admin.site.register(Food)
 admin.site.register(Comment, CommentAdmin)
+admin.site.register(Dashboard)
