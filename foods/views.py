@@ -6,7 +6,7 @@ from django.contrib import messages
 # Create your views here.
 def foods(request):
     featured_foods = Food.objects.order_by('-created_date').filter(is_featured=True)
-    paginator = Paginator(featured_foods, 3)
+    paginator = Paginator(featured_foods, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
 

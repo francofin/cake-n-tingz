@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block content %}
+
 {% load socialaccount %}
 {% providers_media_js %}
 {% block title %} | Detail {% endblock %}
-
+{% block content %}
     <section>
       <img  class="hero-wrap hero-wrap-2 " style= "align-self: center;" src="{{food_recipe.food_photo.url}}" style=alt="">
       <div class="overlay"></div>
