@@ -1,0 +1,2176 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$kUU9sZwfWCMG$hmOO0quLMH6hds14qjGqVz+MuyCsyIT/9yce2VwjC0E=",
+        "last_login": "2020-09-07T05:38:28.308Z",
+        "is_superuser": true,
+        "username": "ashleyadmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "francoiskieran89@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-08-30T00:03:57.432Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$O0fDcuk5CEwK$ANdin0iz7kSMrYRJNuKG+7Fv5pa9IfPEoYHHuLH+uFo=",
+        "last_login": "2020-08-30T20:59:02.663Z",
+        "is_superuser": false,
+        "username": "franco",
+        "first_name": "Francois",
+        "last_name": "Jack",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-08-30T20:47:35.292Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$suJtGyYD5HUu$TH3273jcdSSyRmA3CrxTg9nj7QH1CnTFXYXPLncpBVQ=",
+        "last_login": "2020-09-07T05:16:52.485Z",
+        "is_superuser": false,
+        "username": "jay",
+        "first_name": "Jay",
+        "last_name": "Jay",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-08-30T20:51:32.504Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!GQv93NTtogGvxQvdMF9qDNgxGI48m2n4MiXqSMpG",
+        "last_login": "2020-09-13T05:36:25.376Z",
+        "is_superuser": false,
+        "username": "francois",
+        "first_name": "Francois",
+        "last_name": "Jack",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-08-31T02:27:43.877Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!sifaC6gjiqpaVffMsZnm0HUBsxnmr7JkAIJ7rJ2a",
+        "last_login": "2020-08-31T02:42:32.284Z",
+        "is_superuser": false,
+        "username": "francois4",
+        "first_name": "Francois",
+        "last_name": "Jack",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-08-31T02:38:39.832Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$LJ3zAgUx5LDk$wDZGrEEYwCjXRN89goaVdl3JzTbu7fDgEVRZMJB6AwU=",
+        "last_login": "2020-09-04T04:33:00.473Z",
+        "is_superuser": false,
+        "username": "franco_10",
+        "first_name": "Francois",
+        "last_name": "Jack",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-09-04T04:33:00.363Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$KWpdD4TPFcyR$qsOfsFKBxNt4aBAOzw75B02g+bB5J5LqXTy3GbHku98=",
+        "last_login": "2020-09-06T21:27:56.705Z",
+        "is_superuser": false,
+        "username": "maria",
+        "first_name": "michel",
+        "last_name": "mariani",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-09-06T21:22:48.607Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "11njuphg01n39rcy9n0viqih731v2ntl",
+    "fields": {
+        "session_data": "N2I1ZWFlMzhiYzBiNmM0ZWYxMDMzNGY5MjYwNDg4NTg4NTE4ZGMwZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3OTE0MzkxOWM0YTA2ZWU0MGYxOGY1NWRiNDBmNDYzOTE1ZDE1NmFiIn0=",
+        "expire_date": "2020-09-18T04:00:50.255Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "28n92spntibsttuxy7401z5l410tliui",
+    "fields": {
+        "session_data": "N2I1ZWFlMzhiYzBiNmM0ZWYxMDMzNGY5MjYwNDg4NTg4NTE4ZGMwZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3OTE0MzkxOWM0YTA2ZWU0MGYxOGY1NWRiNDBmNDYzOTE1ZDE1NmFiIn0=",
+        "expire_date": "2020-09-14T02:56:07.064Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2h1nnvb1ohcwzubjk2306z3u6f4yrlg5",
+    "fields": {
+        "session_data": "N2I1ZWFlMzhiYzBiNmM0ZWYxMDMzNGY5MjYwNDg4NTg4NTE4ZGMwZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3OTE0MzkxOWM0YTA2ZWU0MGYxOGY1NWRiNDBmNDYzOTE1ZDE1NmFiIn0=",
+        "expire_date": "2020-09-21T05:38:28.309Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Francois",
+        "last_name": "Jack",
+        "photo": "photos/2020/08/29/francois.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/?lang=en",
+        "pintrest_link": "https://www.pinterest.ca/",
+        "created_date": "2020-08-30T00:24:04.254Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Ashley",
+        "last_name": "Cakes",
+        "photo": "photos/2020/08/29/ashley.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/?lang=en",
+        "pintrest_link": "https://www.pinterest.ca/",
+        "created_date": "2020-08-30T02:42:16.522Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoisjack18@gmail.com",
+        "subject": "How do you do it! You're Amazing",
+        "message": "I just wanna say I am honored to leave the first comment and I am grateful to have someone who pushes me to do these things, I hope I can equally be an inspiration to you, some big standards to live up to., ",
+        "user_id": 7,
+        "create_date": "2020-09-04T00:34:48.255Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoisjack18@gmail.com",
+        "subject": "How do you do it! You're Amazing",
+        "message": "I just wanna say I am honored to leave the first comment and I am grateful to have someone who pushes me to do these things, I hope I can equally be an inspiration to you, some big standards to live up to., ",
+        "user_id": 7,
+        "create_date": "2020-09-04T00:36:48.483Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Random User",
+        "email": "random@gmail.com",
+        "subject": "Cake Inquiry",
+        "message": "How Much for the taco cupcakes, I love them. \r\nThanks ",
+        "user_id": 0,
+        "create_date": "2020-09-04T00:40:06.565Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "subject": "Test For Email Response",
+        "message": "Did this work",
+        "user_id": 0,
+        "create_date": "2020-09-04T01:11:33.651Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "kieran",
+        "email": "francoiskieran89@gmail.com",
+        "subject": "New Cake",
+        "message": "How much is this taco cake?",
+        "user_id": 4,
+        "create_date": "2020-09-05T15:54:47.906Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 1,
+    "fields": {
+        "lifestyle_title": "What Does it Mean to Live an Organic Lifestyle?",
+        "description": "<p>Is an Organic lifestyle for me? Once upon a time, I didn&rsquo;t really care much for an organic lifestyle. It didn&rsquo;t bother me all that much, I thought my health was ok, even after having a few operations, I still thought my health was alright.</p>\r\n\r\n<p>It all changed when our life got really stressful, I started losing hair and losing some of my teeth, I realized, shit! If I don&rsquo;t change my lifestyle, I won&rsquo;t live or enjoy life much longer.</p>\r\n\r\n<p>My physical health was started to show signs of deterioration of a lifetime of neglect, which affected my mental health as well. After going through this experience, I realised this is something I don&rsquo;t want my kids to have to go through.</p>\r\n\r\n<h3>The beginning of an Organic Lifestyle</h3>\r\n\r\n<p>I had to make a decision, I really needed to live better. My health was going down quick and I had to change my life.</p>\r\n\r\n<p>So I made the decision to change, not just for me but for my family and kids.</p>\r\n\r\n<p>So I finally listened to Rhonda, my wife and with her help we started making changes in our diet, I started eating more organic food, like fruit and vegetables and cut out a lot of the fast food junk and processed foods I used to eat.</p>\r\n\r\n<p>I enjoy eating organic food knowing that I&rsquo;m looking after my health and the health of my family.</p>\r\n\r\n<p>After a late night session of watching food documentaries, I would ponder on how to go full organic, what does it even mean to live organically?</p>\r\n\r\n<p>See, I used to think living organically, was being a hippy and hugging trees and eating just raw vegatables.&nbsp;But it wasn&rsquo;t. It&rsquo;s about a living a natural, healthy and sustainable life.</p>\r\n\r\n<p>To Live Organically is to live a natural life, the way humans we intended to live.<cite>THE ORGANIC SOCIETY</cite></p>\r\n\r\n<p>Plus, I got my kids started on my bad food habits and had to set a better example, be a better a role model to my kids.</p>\r\n\r\n<p>In the process of that epiphany, I transformed into a beautiful butterfly. Nah, jokes, but I did learn more about natural health and organic living. It was a way of living that made you feel younger and look better, it is also better for the environment.</p>\r\n\r\n<p>It started like a detox. I changed my diet, which changed my thinking. This journey changed my thinking to understand more about eco-friendly methods of doing things. It taught me to care for the environment and the environment will take care of you.</p>\r\n\r\n<p>So living organically includes thinking about the environment and how our actions affect and impact the environment.</p>\r\n\r\n<p>We need to start eating organic food, free of nasty pesticides and fertilizers to really be healthy.</p>\r\n\r\n<p>Pesticides are for killing weeds, so what happens when we eat that shit? If it can kill weeds, it can sure make us sick.&nbsp;Look at the state of the world today, health problems are at an all time high, due to food we eat.</p>\r\n\r\n<p>One way to promote healthy eating is setting up your own organic garden, where you can grow your own health, organic food. The kids will love it! To learn how you can setup your own garden, head over to our blog on &ldquo;<a href=\"https://organicsociety.co/how-to-set-up-an-organic-garden/\">How to Setup an Organic Garden at Home</a>&rdquo; for more info.</p>\r\n\r\n<p>An organic lifestyle leads to start your organic garden utilizing permaculture practices to create your garden&rsquo;s own natural eco-system as well.</p>\r\n\r\n<p>Organic living has a lot to due with caring for the environment by using organic cleaning products. Products that contain natural ingredients like baking soda, vinegar, natural salt, etc. Products that are safe for you, your family and the environment.</p>\r\n\r\n<p>Another area we start we must attend to is organic beauty and skincare products. You need to look after yourself as well and with all the beauty products on the market, there&rsquo;s a lot to chose from.</p>\r\n\r\n<p>I started using organic hemp soap and hemp body lotion. It&rsquo;s not bad, won&rsquo;t know the difference yet but at least I know it&rsquo;s free bad pesticides.</p>\r\n\r\n<p>Good for my body, good for the environment.</p>\r\n\r\n<p>What health regime wouldn&rsquo;t include vitamin supplements? I try to go organic with the supplements when I can as it better to take supplements that can&rsquo;t potentially kill you or make you sick.</p>\r\n\r\n<p>By changing the food I ate, taking organic food supplements and vitamins, growing our own organic produce, using organic skincare and organic cleaning detergents, I was on my way to adopting a new organic lifestyle.</p>\r\n\r\n<p>So an organic lifestyle is ultimately having a mindset of and an ecology for the greater good.<br />\r\nIt&rsquo;s about looking after yourself by eating organic, living naturally and drama free.</p>",
+        "description_short": "<p>Is an Organic lifestyle for me? Once upon a time, I didn&rsquo;t really care much for an organic lifestyle. It didn&rsquo;t bother me all that much, I thought my health was ok, I still thought my health was alright.</p>",
+        "lifestyle_photo": "photos/2020/09/06/pexels-daria-shevtsova-1030870.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "category": "Organic Foods",
+        "created_date": "2020-09-06T19:00:32Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 2,
+    "fields": {
+        "lifestyle_title": "Workouts Through Your Community",
+        "description": "<p>When people think about working out, they often assume it means strenuous&nbsp;<a href=\"https://www.verywellfit.com/cardio-workout-program-weight-loss-1230810\">cardio</a>&nbsp;and&nbsp;<a href=\"https://www.verywellfit.com/what-is-resistance-training-3496094\">resistance training</a>&nbsp;at the gym. But the truth is you don&#39;t need a gym membership or even much equipment to get a good sweat on, build muscle, and maybe even lose some weight (if that&#39;s your goal) in the comfort of your own home.</p>\r\n\r\n<p>If performed correctly and consistently, these beginner, intermediate, and advanced home workouts below can be every bit as effective as a gym workout. The key is to focus on strength training, because building muscle through resistance exercises helps to boost lean mass.1\ufeff</p>\r\n\r\n<p>You can eventually&nbsp;<a href=\"https://www.verywellfit.com/best-home-cardio-exercises-1231273\">incorporate cardio</a>&nbsp;into your workout, but start by getting the basics correct. By seeing and feeling the results early on, you will be more likely to keep with the program over the long term.</p>\r\n\r\n<h2>Beginner Home Workout</h2>\r\n\r\n<p>This beginner&#39;s workout plan targets the large muscles that provide stability and core strength. You don&rsquo;t need any special equipment. You can do the exercises together in one workout session or split them up throughout the day.</p>\r\n\r\n<p>Aim to do 2&ndash;3 sets of 10&ndash;12 repetitions (reps) of each exercise. If you can only do four or six to start, that&#39;s OK. The aim is to perform an exercise so you are slightly shaky by the final rep, but not so much so that your form suffers. Every week, aim to increase the reps until you are finally able to do three sets of 12.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Perfect form is essential when doing a&nbsp;<a href=\"https://www.verywellfit.com/pushup-variations-modifications-and-mistakes-1231030\">push-up</a>. Start with a variation you can complete with good technique, such as dropping your knees to the floor. Progress to the next level when you can do 10 to 12 reps without dropping you back, stopping short, or shaking unsteadily.</p>\r\n\r\n<p>Start by doing a set of simple back&nbsp;<a href=\"https://www.verywellfit.com/lunges-for-the-hips-glutes-and-thighs-1231321\">lunges</a>, which help build your glute muscles and thighs. Use a wall or chair for balance if needed. When you are able to do 10 to 12 lunges on each leg without support, try the front lunge or another variation.</p>\r\n\r\n<p>&nbsp;</p>",
+        "description_short": "<p>The truth is you don&#39;t need a gym membership or even much equipment to get a good sweat on, build muscle, and maybe even lose some weight (if that&#39;s your goal) in the comfort of your own home.</p>",
+        "lifestyle_photo": "photos/2020/09/06/pexels-purple-smith-4527459.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "category": "Workouts",
+        "created_date": "2020-09-06T19:53:20Z"
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 1,
+    "fields": {
+        "recipe_title": "pizza",
+        "description": "<p>Real Italian Pizza</p>",
+        "description_short": "<p>One for the road</p>",
+        "food_photo": "photos/2020/08/30/blog-1.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Sourdough,Parsley",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": true,
+        "created_date": "2020-08-30T22:59:08Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 2,
+    "fields": {
+        "recipe_title": "platter",
+        "description": "<p>Greek Platter</p>",
+        "description_short": "<p>Jam&oacute;n ib&eacute;rico</p>",
+        "food_photo": "photos/2020/08/30/blog-2.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Sourdough,Cinnammon",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-08-30T23:01:01Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 3,
+    "fields": {
+        "recipe_title": "Bread",
+        "description": "<p>Sourghdough Bread</p>",
+        "description_short": "<p>My Morning Glory</p>",
+        "food_photo": "photos/2020/08/30/sourdough.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Sourdough,Cinnammon,Butter",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-08-30T23:26:29Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": true,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 4,
+    "fields": {
+        "recipe_title": "Sweets",
+        "description": "<p>Cakes&#39;n&#39;stuff</p>",
+        "description_short": "<p>Satisfy the sweet tooth</p>",
+        "food_photo": "photos/2020/08/30/image_1.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Cinnammon",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": true,
+        "created_date": "2020-08-30T23:28:13Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 5,
+    "fields": {
+        "recipe_title": "mimosa",
+        "description": "<p>Drinks n tingz&nbsp;</p>",
+        "description_short": "<p>Summer Drinks</p>",
+        "food_photo": "photos/2020/08/30/blog-4.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Sativa",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": true,
+        "created_date": "2020-08-30T23:28:53Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": true,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 6,
+    "fields": {
+        "recipe_title": "Paella",
+        "description": "<ol>\r\n\t<li>Combine the paprika and oregano in a small bowl. Rub the spice mix all over the chicken and marinate chicken for 1 hour in the refrigerator.&nbsp;</li>\r\n\t<li>Heat oil in a paella pan over medium-high heat. Saute the chorizo until browned, remove and reserve. Add chicken skin-side down and brown on all sides, turning with tongs. Add salt and freshly ground pepper. Remove from pan and reserve.&nbsp;</li>\r\n\t<li>In the same pan, make a sofrito by sauteing the onions, garlic, and parsley. Cook for 2 or 3 minutes on a medium heat. Then, add tomatoes and cook until the mixture caramelizes a bit and the flavors meld. Fold in the rice and stir-fry to coat the grains. Pour in water and simmer for 10 minutes, gently moving the pan around so the rice cooks evenly and absorbs the liquid. Add chicken, chorizo, and saffron. Add the clams and shrimp, tucking them into the rice. The shrimp will take about 8 minutes to cook. Give the paella a good shake and let it simmer, without stirring, until the rice is al dente, for about 15 minutes. During the last 5 minutes of cooking, when the rice is filling the pan, add the lobster tails. When the paella is cooked and the rice looks fluffy and moist, turn the heat up for 40 seconds until you can smell the rice toast at the bottom, then it&#39;s perfect.&nbsp;</li>\r\n\t<li>Remove from heat and rest for 5 minutes. Garnish with peas, parsley and lemon wedges.</li>\r\n</ol>",
+        "description_short": "<p>Prueba Espa&ntilde;a</p>",
+        "food_photo": "photos/2020/09/06/pexels-joshua-miranda-4305836_6HqpWQF.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Chicken Thigh,Oysters,Shrimp,Salmon,Butter,Rice,Jam\u00f3n ib\u00e9rico",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": true,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-06T21:40:45Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 7,
+    "fields": {
+        "recipe_title": "Pizza",
+        "description": "<p>Sometimes the simplest ingredients, combined in the simplest of ways, have the power to stop time, erase your woes, and transport you to a place of nirvana-like bliss. Such is the power of the margherita pizza. Fresh tomato sauce, chewy mozzarella cheese, a sprinkling of basil on a crispy crust? I wouldn&rsquo;t be surprised if you started levitating.</p>\r\n\r\n<p>I am not a strict purist when it comes to margherita, or margarita, pizza. I like the crust to be crispy, but still with a little chew. When tomatoes are in season and so very ripe, I&rsquo;ll use them over the traditional canned&nbsp;<a href=\"https://www.thekitchn.com/how-to-identify-real-san-marza-153939\">San Marzano tomatoes</a>&nbsp;imported from Italy. I also really like a clove of garlic and a few basil leaves in my sauce. Slices of fresh mozzarella, buffalo or otherwise, are a must.</p>\r\n\r\n<p>If you&rsquo;ve never made your own pizza sauce before, this recipe will convince you otherwise &mdash; if you can even call it a recipe. All you do is blend ripe tomatoes in a food processor or blender until they&rsquo;re good and saucy. To prevent an overly watery sauce (and the subsequently soggy pizza crust), I usually squeeze the tomatoes of excess liquid before blending, or strain the sauce afterwards to make it thicker.</p>\r\n\r\n<p>No need to cook this sauce ahead of time, either. When spread thinly on the crust, it will cook just enough in the oven to perk up its flavors.</p>\r\n\r\n<p>If it&rsquo;s too hot to contemplate turning on the oven where you live, definitely try making this pizza on the grill. I can only imagine that the smokiness and high heat of the grill will make a margherita pizza even more nirvana-inducing.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>Arrange a rack in the bottom third of the oven. Place a heavy rimmed baking sheet upside-down on the rack, and heat the oven to 450&deg;F.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Make the sauce: Place the garlic in a food processor fitted with the blade attachment and pulse until coarsely chopped, 2 to 3 pulses. Add the tomatoes and their juices, olive oil, sugar, vinegar, salt, and pepper and process until pur&eacute;ed or to desired consistency, 20 to 30 seconds; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Divide the pizza dough into two pieces. If the dough is sticky, dust with a little bit of all-purpose flour. Dust a 12-inch piece of parchment paper with cornmeal and place the dough on it. Use the heel of your hand to press the dough flat. Work from the middle out to shape it into a 10-inch round with your hands or a rolling pin. The dough will stick to the parchment; if it starts to shrink back, wait a few minutes to let it relax and continue shaping.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Brush the dough with 1 teaspoon of the olive oil, then spread 1/4 cup of the sauce into a thin layer onto dough, leaving a 1/2-inch border. Carefully remove the preheated baking sheet from the oven and use the parchment paper to slide the pizza onto the back of the baking sheet.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Bake for 4 minutes. Top the pizza with half of the mozzarella, leaving some space between the slices. Bake until the crust is golden brown and crisp and the cheese melts, 6 to 7 minutes more.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Remove the pizza from the oven. Immediately drizzle with 2 teaspoons of the olive oil. Scatter half of the basil on the pizza and sprinkle with half of the Parmesan. Cool for 2 minutes before slicing and serving. Repeat with the remaining dough and toppings.</p>\r\n\t</li>\r\n</ol>",
+        "description_short": "<p>I love pizza!</p>",
+        "food_photo": "photos/2020/09/06/pexels-vincent-rivaud-2147491.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Sourdough,Basil,Mozzarella,Red Pepper Flakes,Provolone,Salt,Butter,Jam\u00f3n ib\u00e9rico",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": true,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-06T22:52:06Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": true,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 8,
+    "fields": {
+        "recipe_title": "Butter Tarts",
+        "description": "<p><em>Butter Tarts are the Ultimate Canadian treat. A sweet, gooey filling, wrapped with a tender, flaky crust. Perfect for the holidays, or dessert anytime.</em></p>\r\n\r\n<p>When I was growing up,&nbsp;<strong>Butter Tarts</strong>&nbsp;were always a part of Christmas baking. My mom or grandma would make them every year when the holidays rolled around, and they were always on of the family&rsquo;s favorite items, and always one of the first to disappear off the dessert tray.</p>\r\n\r\n<p>Now that my husband and I live in Wisconsin, we still love and make them, mostly at Christmas time, sometimes to celebrate a Canadian holiday, like Canada day.</p>\r\n\r\n<h2>What are Butter Tarts anyway?</h2>\r\n\r\n<p>If you&rsquo;re Canadian, you definitely know what Butter Tarts are and there&rsquo;s a good chance you&rsquo;ve eaten them at some point. If you&rsquo;re not Canadian, I&rsquo;m guessing you don&rsquo;t know what they are.</p>\r\n\r\n<p>According to Google, butter tarts are &rdquo; considered one of Canada&rsquo;s quintessential treats &ldquo;. They are tarts (think mini pies) filled with a sweet, buttery, gooey filling, and often raisins (but Canadians are very much divided on this &ndash; see below).</p>\r\n\r\n<p>The closest thing in American cuisine to a butter tart that I can think of is pecan pie. But with a higher filling to pecan ratio. And no pecans.</p>\r\n\r\n<h2>How do you make butter tarts?</h2>\r\n\r\n<p>Butter tarts for me growing up always started out with frozen, store bought tart shells. In fact, there is nothing I hate making more than pastry dough, so I still prefer to use them. But unfortunately, they are not available in Wisconsin, so unless I can have a family member bring them to me, I have to make the tart shells myself.</p>\r\n\r\n<p>I have included a recipe for pastry dough that has worked well for me, and certainly results in delicious butter tarts, but if you&rsquo;re in Canada, feel free to use store bought tart shells. If you&rsquo;re from elsewhere, you can use your own favorite pastry dough recipe, or use store bought pie dough (the kind that comes rolled, not the kind that&rsquo;s already in a pie dish).</p>\r\n\r\n<p>The filling is the easy part. The ingredients are pretty basic. You probably already have them all in &nbsp;your pantry right now. Butter (of course), brown sugar, corn syrup, salt, egg and vanilla. They all get mixed together to make the filling.</p>\r\n\r\n<h3>What about the raisins?</h3>\r\n\r\n<p>Ah the raisins. I know not everyone likes raisins in baked goods. I hate don&rsquo;t like them myself! The whole time I was growing up, my mom and grandma knew to make a few butter tarts for me without the raisins. But this recipe has a secret that makes it all okay.</p>\r\n\r\n<p>Soak the raisins in water before you add them to the tarts. It makes them plump and juicy and oh so tasty. I made a whole batch without a single plain tart. I like them that much. Definitely DON&rsquo;T skip the soaking step.</p>\r\n\r\n<p>Now this is important: fill the tart shells only so that the raisins are just barely covered. Any more than that and you won&rsquo;t have enough to make 18 tarts and the filling will bubble up and overflow in the oven. Then you will be stuck with tarts that are superglued to the pan.</p>\r\n\r\n<p>After your tarts cool, you&rsquo;ll be left with flaky and tender crust filled with sticky, gooey filling and plump juicy raisins. They&rsquo;re the perfect addition to your Christmas baking. Otherwise, pack them up and bring them on a Canada Day picnic.</p>",
+        "description_short": "<p>My Family Secret</p>",
+        "food_photo": "photos/2020/09/07/pexels-daria-shevtsova-1546587.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Pecans,Pastry Flour,Butter,Raisins",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": true,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-06T23:54:47Z",
+        "is_holiday_recipe": true,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 9,
+    "fields": {
+        "recipe_title": "Apple Pie",
+        "description": "<ul>\r\n\t<li>Step 1\r\n\t<p>Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.</p>\r\n\t</li>\r\n\t<li>Step 2\r\n\t<p>Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.</p>\r\n\t</li>\r\n\t<li>Step 3\r\n\t<p>Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft.</p>\r\n\t</li>\r\n</ul>",
+        "description_short": "<p>Winter&#39;s Apple Pie</p>",
+        "food_photo": "photos/2020/09/07/pexels-josh-kobayashi-4083581.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Apples,Milk,All Purpose Flour,Pastry Flour",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": true,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-07T00:05:04Z",
+        "is_holiday_recipe": true,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 10,
+    "fields": {
+        "recipe_title": "Chocolate Croissants",
+        "description": "<ul>\r\n\t<li>Step 1\r\n\t<p>Place warm water in the bowl of a stand mixer. Sprinkle with yeast. Let yeast dissolve for 10 minutes. Add sugar and bread flour. Sprinkle with salt; add 3 tablespoons butter. Attach the bowl to the stand mixer. Mix dough with the dough hook just until butter is completely kneaded in and the dough forms a ball and pulls away cleanly from the sides of the bowl, 3 or 4 minutes.</p>\r\n\t</li>\r\n\t<li>Step 2\r\n\t<p>Transfer dough to a work surface and form into a semi-smooth ball. Place dough back in the mixer bowl; cover. Let rise in a warm spot until doubled, about 2 hours.</p>\r\n\t</li>\r\n\t<li>Step 3\r\n\t<p>Transfer dough to a lightly floured work surface. Push and press dough to deflate it, and form it into a rectangle. Fold into thirds by lifting one end over the middle third, and folding the other side onto the middle. Wrap in plastic wrap. Place on a rimmed baking sheet lined with a silicone mat. Refrigerate until chilled through, about 1 hour.</p>\r\n\t</li>\r\n\t<li>Step 4\r\n\t<p>Cut 1 stick of butter in 1/2 lengthwise and place halves slightly apart from each other on a length of parchment paper long enough to fold over the butter. Fold the parchment paper over the butter. Press butter down. Roll out with a rolling pin to a square about 8x8 inches. Refrigerate until a little chilled and just barely flexible, 10 or 15 minutes.</p>\r\n\t</li>\r\n\t<li>Step 5\r\n\t<p>Roll dough out into a rectangle slightly wider than the butter slab and just over twice as long. Place butter on one half of the dough leaving about 1 inch margin from the edge of the dough. Fold the other half of the dough over the butter. Dust work surface and dough with flour as needed.</p>\r\n\t</li>\r\n\t<li>Step 6\r\n\t<p>Press rolling pin down on dough to create ridges. Then roll out the ridges. Repeat this process. Keep pressing and rolling until dough is about the same size rectangle as you had before you folded it in half, dusting with just a bit of flour as necessary.</p>\r\n\t</li>\r\n\t<li>Step 7\r\n\t<p>Starting from the short side, fold one-third of dough over middle third. Then fold the other end over to form a small rectangle. Flatten out just slightly with rolling pin. Transfer to the silicone-lined baking sheet; cover with plastic wrap. Refrigerate until chilled, about 30 minutes.</p>\r\n\t</li>\r\n\t<li>Step 8\r\n\t<p>Transfer dough back to work surface and repeat pressing and rolling technique until dough is the size of the previous larger rectangle. Fold into thirds again, starting from the short side. Press and roll slightly. Transfer back to lined baking sheet. Cover and refrigerate about 15 minutes.</p>\r\n\t</li>\r\n\t<li>Step 9\r\n\t<p>Roll back out to a large rectangle. This time, fold dough in half. Then press and roll out into a 1/2-inch thick rectangle, using as little flour as needed to keep dough from sticking.</p>\r\n\t</li>\r\n\t<li>Step 10\r\n\t<p>Dust dough with flour and roll out to a rectangle about 1/8-inch thick. Cut dough lengthwise into 6 pieces using a pastry wheel.</p>\r\n\t</li>\r\n\t<li>Step 11\r\n\t<p>Pull and stretch out 1 of the dough pieces until ends are slightly tapered. Line 1 to 2 tablespoon of chocolate 1 inch parallel to the bottom edge and an equal amount of chocolate 1 more inch ahead. Roll dough up over the chocolate toward the top short edge to form a croissant with the seam at the bottom. Repeat with the remaining 5 dough pieces.</p>\r\n\t</li>\r\n\t<li>Step 12\r\n\t<p>Place shaped croissants on baking sheets lined with silicone mats. Whisk together egg and 1 tablespoon water to make the egg wash. Brush croissants with a large portion of the egg wash. Place in a warm area to allow them to rise, 60 to 90 minutes.</p>\r\n\t</li>\r\n\t<li>Step 13\r\n\t<p>Preheat oven to 400 degrees F (200 degrees C). Brush croissants gently but thoroughly again with egg wash. Sprinkle sea salt on top.</p>\r\n\t</li>\r\n\t<li>Step 14\r\n\t<p>Bake in preheated oven until beautifully browned, about 25 minutes. Transfer to a cooling rack. Cool to room temperature, about 1 hour.</p>\r\n\t</li>\r\n</ul>",
+        "description_short": "<p>Warm Chocolate Croissants</p>",
+        "food_photo": "photos/2020/09/07/pexels-lisa-fotios-1393399.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Chocolate Chips,Eggs,All Purpose Flour,Butter,Warm Water,Dry Yeast,Sea Salt",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": true,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-07T00:32:04Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": true,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 11,
+    "fields": {
+        "recipe_title": "Burger Cake",
+        "description": "<ul>\r\n\t<li>\r\n\t<p>1</p>\r\n\r\n\t<p>Heat oven to 350&deg;F. Place mini paper baking cup in each of 24 mini muffin cups. In medium bowl, mix flour, baking powder and salt; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>2</p>\r\n\r\n\t<p>In large bowl, beat butter with electric mixer on medium speed 30 seconds. Gradually add sugar, about 1/4 cup at a time, beating well after each addition. Beat 2 minutes longer. Add 3 eggs, one at a time, beating well after each addition. Beat in vanilla. On low speed, alternately add flour mixture, about a third at a time, and milk, about half at a time, beating just until blended.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>3</p>\r\n\r\n\t<p>Fill each cup with about 1 tablespoon plus 1 teaspoon batter or until about two-thirds full. (Cover and refrigerate remaining batter until ready to bake; cool pan 15 minutes before reusing.) Bake 17 to 20 minutes or until golden brown and toothpick inserted in center comes out clean. Cool 5 minutes; remove cupcakes from pans to cooling racks. Cool completely, about 15 minutes. Repeat with remaining batter to make an additional 48 mini cupcakes.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>4</p>\r\n\r\n\t<p>Leave oven temperature at 350&deg;F. Grease 15x10x1-inch pan with shortening or cooking spray. In large bowl, stir brownie mix, 1/4 cup water, the oil and 2 eggs with spoon until blended. Pour into pan. Bake 22 to 26 minutes or until toothpick inserted 2 inches from side of pan comes out almost clean. Cool 20 minutes. With 1 1/2-inch round cutter, cut 64 brownie rounds for &ldquo;burgers.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>5</p>\r\n\r\n\t<p>In medium bowl, toss coconut, green food color and 4 to 6 drops water with fork until coconut reaches desired color; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>6</p>\r\n\r\n\t<p>Remove paper baking cups from 64 cupcakes (reserve remaining cupcakes for another use). Cut each cupcake horizontally in half to make tops and bottoms of &ldquo;buns.&rdquo; Place brownie rounds (burgers) on bottom halves of cupcakes (buns), using frosting to secure.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>7</p>\r\n\r\n\t<p>To make &ldquo;cheese slices,&rdquo; on large microwavable plate, microwave about 8 chewy fruit candies at a time on High 5 to 10 seconds to soften. Use bottom of measuring cup to flatten until each is about 1 3/4 inches in diameter. Secure to &ldquo;burgers&rdquo; with frosting. Repeat to make additional &ldquo;cheese slices.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>8</p>\r\n\r\n\t<p>To make &ldquo;ketchup,&rdquo; cut chewy fruit snack with kitchen scissors into about 1 3/4-inch irregular-edged circles. Secure to &ldquo;cheese&rdquo; with frosting. Spread dab of frosting on &ldquo;ketchup&rdquo;; sprinkle each slider with scant 2 teaspoons tinted coconut for &ldquo;shredded lettuce.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>9</p>\r\n\r\n\t<p>In small bowl, mix honey and enough of the 1 to 2 teaspoons water until thin consistency. Brush honey mixture lightly over &ldquo;bun tops&quot;; sprinkle each with sesame seed. Spread dab of frosting on cut sides of &ldquo;bun tops&quot;; secure to coconut, frosting side down.</p>\r\n\t</li>\r\n</ul>",
+        "description_short": "<p>Burgers and Cake have never been better.</p>",
+        "food_photo": "photos/2020/09/07/burger_cake.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Baking Powder,Baking Soda,Vanilla Extract,Eggs,Milk,Sugar,Cake Flour,Warm Water",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": true,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-07T00:37:06Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": true,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 12,
+    "fields": {
+        "recipe_title": "Taco Cake",
+        "description": "<p>Everyone loves a good taco, so I figured most people would appreciate a taco cake!!</p>\r\n\r\n<p>While the shape of the cake may make it seem complicated to make, I promise it&rsquo;s easier than you&rsquo;d think!</p>\r\n\r\n<h2>How On Earth Do You Shape The Cake To Look Like A Taco?!</h2>\r\n\r\n<p>This cake cake is made with two round cake layers (one slightly smaller than the other).</p>\r\n\r\n<p>Each layer is cut in half. Then three of these halved cake layers are sticked upright.</p>\r\n\r\n<p>This means you&rsquo;ll end up with an extra half a cake layer. I ended up just eating mine with some leftover buttercream&hellip;but you could also make cake pops with it.</p>\r\n\r\n<p>This taco cake is made with my favorite&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla layer cake</a>, which has great structure and works wonderfully for shaped cakes like this.</p>\r\n\r\n<p>The cake is decorated with my&nbsp;<a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">American buttercream frosting</a>. The frosting almost acts like a glue. It keeps the layers of this cake in place, and is also used to create most of the &ldquo;topping&rdquo; decorations.&nbsp;</p>\r\n\r\n<p>I used a&nbsp;<a href=\"https://amzn.to/2s6DnSP\">wilton 789 frosting tip</a>&nbsp;to make the frosting process easier.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Customize Your Taco Cake</h3>\r\n\r\n<p>That&rsquo;s one of my favorite parts of this taco cake, you can decorate it to look just like your favorite tacos!</p>\r\n\r\n<p>Love beef picadillo (guilty as charged!)? Use some chocolate buttercream and crushed Oreos to make the &ldquo;beef!&rdquo;</p>\r\n\r\n<p>Or if you&rsquo;re a huge guacamole fan, color some of the buttercream an earthy shade of green, and top your cake with a generous dollop!</p>\r\n\r\n<p>Whether you&rsquo;re a taco enthusiast, or just want to celebrate Cinco de Mayo, this cake is perfect for just about any occasion.</p>\r\n\r\n<p>I&rsquo;d even venture out and say this could be a summer-themed cake! Maybe that&rsquo;s stepping too far, but tacos make me think of warm summer nights.</p>\r\n\r\n<h2>Making This Cake Ahead Of Time</h2>\r\n\r\n<p>A lot of you (and myself, for that matter) like to make your cakes ahead of time! This cake can totally be made in advance.</p>\r\n\r\n<p>That way if you need this cake on a weekday, you don&rsquo;t have to stay up late slaving away the night before. It keeps incredibly well, and will taste just as delicious.</p>\r\n\r\n<p>With that in mind, I do have a few notes around making this cake ahead of time:</p>\r\n\r\n<ul>\r\n\t<li>You can make the&nbsp;<strong>cake layers in advance</strong>! They can be made and frozen several days (or weeks) in advance if they&rsquo;re&nbsp;<a href=\"https://chelsweets.com/2018/10/28/how-to-make-cake-layers-in-advance/\">stored properly</a>.</li>\r\n\t<li>The&nbsp;<strong><a href=\"https://chelsweets.com/2019/04/06/how-long-does-buttercream-last/\">buttercream can also be made ahead of time</a></strong>! It keeps in the fridge for up to a month.&nbsp; Just be sure to store it in an airtight container. Give it a REALLY good stir once it thaws, to get rid of any air bubbles that may have formed while it thawed.</li>\r\n\t<li>Once the&nbsp;<strong>cake is assembled and frosted</strong>, it can be stored in the fridge or freezer for<strong>&nbsp;several days!</strong>&nbsp;The frosting will help lock all the moisture in, and keep the cake layers moist.</li>\r\n\t<li>If you choose to put it in the freezer, transfer the cake to the fridge the day before you plan to cut into it. This will minimize the temperature shock and reduce the risk of condensation.&nbsp;</li>\r\n\t<li>The cake will need a couple hours to come to room temperature. Be sure to take it out of the fridge and let it sit for a bit before you plan to cut into it.</li>\r\n</ul>\r\n\r\n<h3>What About The Chocolate Cake Layer In The Center Of Your Cake!?</h3>\r\n\r\n<p>In the cake shown below, I actually ended up using a chocolate cake layer for the center of the cake. I happened to have one on hand from another baking project!</p>\r\n\r\n<p>In my recipe below, I instruct you to make all&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla cake layers</a>. This just makes the recipe a bit simpler. Otherwise, you&rsquo;d have to make two cake batters, and it would take a lot more work!</p>\r\n\r\n<p>If you&rsquo;re totally set on having a chocolate cake layer in the center of your cake, you can put half of your cake batter in a separate bowl. Mix in 1/3 cup baking cocoa, an extra Tbsp of buttermilk, and an extra Tbsp of egg whites. Pour this batter into the six inch prepared cake pan, and bake as instructed below.</p>",
+        "description_short": "<p>Everyone loves a good taco, why not a taco cake!!</p>",
+        "food_photo": "photos/2020/09/07/tacos.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Baking Powder,Baking Soda,Vanilla Extract,Eggs,Icing Sugar,Cake Flour,Dry Yeast",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": true,
+        "is_breakfast": false,
+        "is_dinner": false,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": true,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-07T00:39:44Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": true,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": false
+    }
+},
+{
+    "model": "foods.food",
+    "pk": 13,
+    "fields": {
+        "recipe_title": "Burritos",
+        "description": "<p>An everyday Beef Burrito recipe,&nbsp;stuffed with a simple,&nbsp;<strong>super tasty seasoned beef</strong>, rice and other fillings of choice. These Burritos are a&nbsp;<strong>brilliant freezer standby</strong>&nbsp;because&nbsp;they&nbsp;are just as good made fresh or frozen then reheated. The burrito beef filling is especially good &ndash; made with a homemade Mexican seasoning that&rsquo;s way better than a packet of Old El Paso!</p>\r\n\r\n<p>Having a stash of burritos in the freezer makes me feel smug. Along with homemade&nbsp;<a href=\"https://recipetineats.com/homemade-frozen-pizzas/\">Frozen Pizzas</a>, these are one of the all time ultimate freezer meals.</p>\r\n\r\n<p>Except burritos have the added bonus that you don&rsquo;t even need to dirty a tray to reheat them, or a plate to eat them.&nbsp;Food you can eat with your hands always rates highly in my world!!!</p>\r\n\r\n<p>I call this Beef Burrito recipe an &ldquo;everyday beef burrito&rdquo; because beef filling aside, it&rsquo;s a terrific one for adding in what you have and what you want. The key part of this recipe is the Beef Burrito Filling &ndash; highly seasoned with a homemade spice mix that tastes like Old El Paso &ndash; except it&rsquo;s preservative free!</p>\r\n\r\n<p>The Beef Filling is the main flavour component in this burrito recipe. It&rsquo;s highly seasoned and juicy so it provides the&nbsp;&ldquo;wetness&rdquo; in the burrito as well as the flavour mixing through the other ingredients when you roll it up.</p>\r\n\r\n<p>So other than the Beef Burrito Filling, there&rsquo;s endless possibilities for what to put in the burrito! For this recipe, I&rsquo;ve chosen a&nbsp;<strong>combination of ingredients that freeze well:</strong></p>\r\n\r\n<p>I like to use foil to roll up the burritos as it holds it together and then I can reheat it in the foil in the oven.</p>\r\n\r\n<p>To freeze, I&nbsp;<strong>wrap in cling wrap</strong>&nbsp;(for extra air tight assurance) then put it in a ziplock bag or airtight container.</p>\r\n\r\n<p>To reheat the burrito, I simply defrost in the fridge overnight then pop it in the ovenin the foil &nbsp;to make it crisp and heat through. If I forgot to defrost overnight, then I take it out of the foil, microwave on low to defrost, then wrap it up in the foil again and pop it in the oven to crisp up.</p>\r\n\r\n<p>I totally forgot to take a photo of what to dip burritos in. They do need something because you can&rsquo;t make the filling too wet, otherwise it makes the tortilla soggy.</p>\r\n\r\n<p>For simplicity, my go-to is&nbsp;<strong>sour cream or yoghurt</strong>, sometimes with a dollop of some sort of&nbsp;<strong>chilli sauce</strong>. If I feel like making more of an effort or I&rsquo;m doing these for a group (I like doing burritos for camping), then I&rsquo;ll make&nbsp;<a href=\"https://recipetineats.com/salsa-super-easy-restaurant-style/\" rel=\"noopener noreferrer\" target=\"_blank\">Restaurant Style Salsa</a>&nbsp;(because it&rsquo;s smooth, it&rsquo;s good for dipping) or this&nbsp;<a href=\"https://recipetineats.com/avocado-sauce/\">Avocado Dipping Sauce</a>.</p>\r\n\r\n<p>&nbsp;</p>",
+        "description_short": "<p>An everyday Beef Burrito recipe</p>",
+        "food_photo": "photos/2020/09/07/bg_1.jpg",
+        "food_photo_1": "",
+        "food_photo_2": "",
+        "food_photo_3": "",
+        "food_photo_4": "",
+        "food_photo_5": "",
+        "food_photo_6": "",
+        "owner": "Ashley",
+        "igredients": "Cheese,Tequila,Minced Beef,Cream Cheese,Red Pepper Flakes,Garlic,Thyme,Onion,Tomatoes,Jalape\u00f1o,Tortilla,Salt,Whole Wheat Rice",
+        "is_salad": false,
+        "is_cake": false,
+        "is_dessert": false,
+        "is_breakfast": false,
+        "is_dinner": true,
+        "is_workout": false,
+        "is_lunch": false,
+        "is_for_kids": false,
+        "is_featured": true,
+        "is_for_home_page": false,
+        "created_date": "2020-09-07T00:59:50Z",
+        "is_holiday_recipe": false,
+        "is_featured_for_home_page": false,
+        "is_for_slider": false,
+        "is_for_slider2": false,
+        "is_for_home_page_side": true
+    }
+},
+{
+    "model": "foods.dashboard",
+    "pk": 13,
+    "fields": {
+        "food_title": "",
+        "user_id": 8,
+        "food_id": 3,
+        "food_photo": "photos/2020/08/30/sourdough.jpg",
+        "food_description": "",
+        "create_date": "2020-09-06T17:28:10.448Z"
+    }
+},
+{
+    "model": "foods.dashboard",
+    "pk": 14,
+    "fields": {
+        "food_title": "",
+        "user_id": 4,
+        "food_id": 3,
+        "food_photo": "photos/2020/08/30/sourdough.jpg",
+        "food_description": "",
+        "create_date": "2020-09-06T17:28:53.046Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook Login",
+        "client_id": "643444872961445",
+        "secret": "2fc7a95001d6b01f9133e01d3d9f8f11",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "195619300815-n5sfd406f2jed8du1t3hrviaanek0357.apps.googleusercontent.com",
+        "secret": "gJ3V-yxKFl-2b2nre8ZdbTXN",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "francois"
+        ],
+        "provider": "facebook",
+        "uid": "10163968116770231",
+        "last_login": "2020-09-13T05:36:25.360Z",
+        "date_joined": "2020-08-31T02:27:43.890Z",
+        "extra_data": "{\"id\": \"10163968116770231\", \"name\": \"Francois Jack\", \"first_name\": \"Francois\", \"last_name\": \"Jack\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "francois4"
+        ],
+        "provider": "google",
+        "uid": "100072300308472995551",
+        "last_login": "2020-08-31T02:42:32.264Z",
+        "date_joined": "2020-08-31T02:38:39.854Z",
+        "extra_data": "{\"id\": \"100072300308472995551\", \"name\": \"Francois Jack\", \"given_name\": \"Francois\", \"family_name\": \"Jack\", \"picture\": \"https://lh6.googleusercontent.com/-9qdhf8aRI1g/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckQIBIgeZ9_SQBH_AErlM96FIYAkg/photo.jpg\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 1,
+        "account": 1,
+        "token": "EAAJJNa8V3aUBAFqsMEFxfZBf3qqZBZBBSeDms0vRGjznLDIojS6pLwgMOFT3EccGRyVbbxwyBuxCEidc8EtZANZBmgs5sCQDi7jGED8mOO6aobnljKhFoUZACFFp0XbsNMXF7w49MN2CoQdvOUR8d6EN7efT3gxVbqUG9NjDRiWAZDZD",
+        "token_secret": "",
+        "expires_at": "2020-11-12T05:36:24.205Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 2,
+    "fields": {
+        "app": 2,
+        "account": 2,
+        "token": "ya29.a0AfH6SMBYAtV2o22vHKdWLT1DqAGL9WO6KxKPAEKMJDJ0azDwt5x0Vgfq4smOxpINrozHnd31CfaM_qnvovvTPUz0XNKFmRRtKQ5_hAd3Sh4Ts1j4XdTAGTfUX1XKIcbkAaDKWBCVcgepVeZRFv736njs0zLF7sXy06k",
+        "token_secret": "",
+        "expires_at": "2020-08-31T03:42:31.068Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-08-30T00:24:04.261Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-08-30T01:44:22.125Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Francois",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-08-30T02:42:16.524Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Ashley",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-08-30T20:47:19.034Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "franco",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-08-31T02:21:16.706Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-08-31T02:21:58.487Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-08-31T02:36:07.481Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-08-31T03:00:50.685Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "1",
+        "object_repr": "Food object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-08-31T03:01:48.465Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "2",
+        "object_repr": "Food object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-08-31T03:16:05.325Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "2",
+        "object_repr": "platter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-08-31T03:16:12.218Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "1",
+        "object_repr": "pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-08-31T03:27:08.464Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Sourghdough Pancake",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-08-31T03:27:29.330Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Sourghdough Pancake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-08-31T03:27:50.661Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Sourghdough Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Recipe title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-08-31T03:28:06.825Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Recipe title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-08-31T03:28:47.249Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "4",
+        "object_repr": "Sweets",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-08-31T03:29:20.433Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-08-31T03:34:48.380Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-08-31T03:39:28.438Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-08-31T05:39:16.516Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for home page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-08-31T05:39:22.113Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "4",
+        "object_repr": "Sweets",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for home page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-08-31T05:39:31.514Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "1",
+        "object_repr": "pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for home page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-09-06T19:56:32.325Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "8",
+        "object_repr": "Dashboard object (8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.557Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "7",
+        "object_repr": "Dashboard object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.562Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "6",
+        "object_repr": "Dashboard object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.564Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "5",
+        "object_repr": "Dashboard object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.566Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "4",
+        "object_repr": "Dashboard object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.568Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "3",
+        "object_repr": "Dashboard object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.570Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "2",
+        "object_repr": "Dashboard object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-09-06T19:56:39.573Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "1",
+        "object_repr": "Dashboard object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-09-06T21:24:19.049Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "10",
+        "object_repr": "Dashboard object (10)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-09-06T21:24:22.747Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "9",
+        "object_repr": "Dashboard object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-09-06T21:24:43.592Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "12",
+        "object_repr": "Dashboard object (12)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-09-06T21:24:43.597Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "dashboard"
+        ],
+        "object_id": "11",
+        "object_repr": "Dashboard object (11)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-09-06T23:03:45.141Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-09-06T23:07:56.157Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-09-06T23:18:40.540Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-09-06T23:21:34.997Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-09-06T23:55:39.838Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "2",
+        "object_repr": "Workouts Through Your Community",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-09-06T23:56:42.524Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "2",
+        "object_repr": "Workouts Through Your Community",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-09-06T23:57:24.851Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-09-07T02:52:01.448Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-09-07T02:56:55.791Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "7",
+        "object_repr": "Pizza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-09-07T03:22:30.873Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-09-07T03:26:22.843Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for slider\", \"Is for slider2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-09-07T03:28:59.610Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Food photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-09-07T03:31:11.208Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for slider\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-09-07T03:31:34.204Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for slider\", \"Is for slider2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-09-07T03:31:42.151Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for slider\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-09-07T03:32:12.845Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for slider\", \"Is for slider2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-09-07T03:45:25.932Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Igredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-09-07T04:01:28.590Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "8",
+        "object_repr": "Butter Tarts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-09-07T04:02:14.290Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "8",
+        "object_repr": "Butter Tarts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is for home page\", \"Is holiday recipe\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-09-07T04:07:35.182Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "9",
+        "object_repr": "Apple Pie",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-09-07T04:34:15.446Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "10",
+        "object_repr": "Chocolate Croissants",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-09-07T04:39:32.875Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "11",
+        "object_repr": "Burger Cake",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-09-07T04:44:25.700Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "12",
+        "object_repr": "Taco Cake",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-09-07T04:51:33.100Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Igredients\", \"Is featured for home page\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-09-07T04:51:54.713Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-09-07T05:11:49.126Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "13",
+        "object_repr": "Burritos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-09-07T05:38:44.444Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "12",
+        "object_repr": "Taco Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-09-07T05:39:08.794Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "11",
+        "object_repr": "Burger Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-09-07T05:50:19.809Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "13",
+        "object_repr": "Burritos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-09-07T05:50:54.163Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "12",
+        "object_repr": "Taco Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-09-07T05:51:04.813Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "11",
+        "object_repr": "Burger Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-09-07T05:51:31.018Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "10",
+        "object_repr": "Chocolate Croissants",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-09-07T05:51:50.765Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "9",
+        "object_repr": "Apple Pie",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-09-07T05:52:07.724Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "8",
+        "object_repr": "Butter Tarts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-09-07T05:52:30.602Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "7",
+        "object_repr": "Pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-09-07T05:53:28.751Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "6",
+        "object_repr": "Paella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-09-07T05:53:49.840Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "5",
+        "object_repr": "mimosa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-09-07T05:54:15.282Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "4",
+        "object_repr": "Sweets",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-09-07T05:54:29.671Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-09-07T05:55:31.226Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "2",
+        "object_repr": "platter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Igredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-09-07T05:55:45.844Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "1",
+        "object_repr": "pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Igredients\"]}}]"
+    }
+}
+]
