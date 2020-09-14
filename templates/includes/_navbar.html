@@ -17,7 +17,7 @@
         class="nav-item"
         {% endif %}>
         <a class="nav-link"
-          href="{% url 'index' %}" style='font-size: 20px;'>Home
+          href="{% url 'index' %}" style='font-size: 18px;'>Home
         </a>
         </li>
         <li
@@ -27,7 +27,7 @@
         class="nav-item"
         {% endif %}>
           <a class="nav-link"
-          href="{% url 'about' %}" style='font-size: 20px;'>
+          href="{% url 'about' %}" style='font-size: 18px;'>
             About
           </a>
         </li>
@@ -36,7 +36,7 @@
         class="nav-item active"
         {% else %}
         class="nav-item"
-        {% endif %}><a href="{% url 'foods' %}" class="nav-link" style='font-size: 20px;'>
+        {% endif %}><a href="{% url 'foods' %}" class="nav-link" style='font-size: 18px;'>
           Foods
         </a>
       </li>
@@ -45,7 +45,7 @@
         {% else %}
         class="nav-item"
         {% endif %}>
-        <a href="{% url 'lifestyle' %}" class="nav-link" style='font-size: 20px;'>
+        <a href="{% url 'lifestyle' %}" class="nav-link" style='font-size: 18px;'>
           Lifestyle
         </a>
         </li>
@@ -55,7 +55,7 @@
         {% else %}
         class="nav-item"
         {% endif %}>
-        <a href="{% url 'contact' %}" class="nav-link" style='font-size: 20px;'>
+        <a href="{% url 'contact' %}" class="nav-link" style='font-size: 18px;'>
           Contact
         </a>
         </li>
@@ -66,7 +66,7 @@
         {% else %}
         class="nav-item"
         {% endif %}>
-        <a href="{% url 'dashboard' %}" class="nav-link" style='font-size: 20px;'>
+        <a href="{% url 'dashboard' %}" class="nav-link" style='font-size: 18px;'>
           Dashboard
         </a>
       </li >
@@ -75,7 +75,7 @@
       {% else %}
       class="nav-item"
       {% endif %}>
-      <a href="javascript:{document.getElementById('logout').submit()}" class="nav-link" style='font-size: 20px;'>
+      <a href="javascript:{document.getElementById('logout').submit()}" class="nav-link" style='font-size: 18px;'>
         Logout
       </a>
         <form action="{% url 'logout' %}" id = "logout" method="POST">
@@ -90,7 +90,7 @@
         {% else %}
         class="nav-item"
         {% endif %}>
-        <a href="{% url 'register' %}" class="nav-link" style='font-size: 20px;'>
+        <a href="{% url 'register' %}" class="nav-link" style='font-size: 18px;'>
           Register
         </a>
       </li>
@@ -100,7 +100,7 @@
         {% else %}
         class="nav-item"
         {% endif %}>
-        <a href="{% url 'login' %}" class="nav-link" style='font-size: 20px;'>
+        <a href="{% url 'login' %}" class="nav-link" style='font-size: 18px;'>
           Log in
         </a>
       </li>

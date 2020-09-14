@@ -125,6 +125,17 @@ class Food(models.Model):
 
     )
 
+    prep_time_list = (
+        ('10 Minutes', '10 Minutes'),
+        ('15 Minutes', '15 Minutes'),
+        ('20 Minutes', '20 Minutes'),
+        ('30 Minutes', '30 Minutes'),
+        ('40 Minutes', '40 Minutes'),
+        ('50 Minutes', '50 Minutes'),
+        ('60 Minutes', '60 Minutes'),
+        ('1 hr 10 minutes', '1 hr 10 minutes'),
+    )
+
     category = (
         ('Cakes', 'Cakes'),
         ('Salads', 'Salads'),
@@ -137,6 +148,11 @@ class Food(models.Model):
 
     recipe_title = models.CharField(max_length=300)
     description = RichTextField()
+    description1 = RichTextField(default="")
+    description2 = RichTextField(default="")
+    description3 = RichTextField(default="")
+    description4 = RichTextField(default="")
+    article_title = models.CharField(max_length=300, default="")
     description_short = RichTextField(default="")
     food_photo = models.ImageField(upload_to='photos/%Y/%m/%d/')
     food_photo_1 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
@@ -147,6 +163,7 @@ class Food(models.Model):
     food_photo_6 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     owner = models.CharField(max_length=200)
     igredients = MultiSelectField(choices=ingredients_list)
+    prep_time = models.CharField(choices=prep_time_list, max_length=200, default="")
     is_salad = models.BooleanField(default=False)
     is_cake = models.BooleanField(default=False)
     is_dessert = models.BooleanField(default=False)
