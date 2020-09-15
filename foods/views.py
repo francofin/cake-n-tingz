@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from foods.models import Food, Dashboard, Comment
+from pages.models import Ashley
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.contrib import messages
 
@@ -9,9 +10,11 @@ def foods(request):
     paginator = Paginator(featured_foods, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
+    ashley_info = Ashley.objects.all()
 
     data = {
         'featured_foods':page_food,
+        'ashley_info': ashley_info,
     }
 
     return render(request, 'pages/foods.html', data)
@@ -22,11 +25,13 @@ def food_detail(request, id):
     featured_posts = Food.objects.order_by('-created_date').filter(is_featured_for_home_page=True)
     food_id = id
     all_comments = Comment.objects.order_by('-create_date').filter(food_id=food_id)
+    ashley_info = Ashley.objects.all()
 
     data= {
         'food_recipe': food_recipe,
         'featured_posts': featured_posts,
         'all_comments': all_comments,
+        'ashley_info': ashley_info,
     }
     return render(request, 'pages/food_detail.html', data)
 

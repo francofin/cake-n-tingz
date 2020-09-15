@@ -8351,11 +8351,11 @@ h1, h2, h3, h4, h5,
         background: #fff !important;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-top: none;
-        -moz-transition: all 0.7s ease;
-        -o-transition: all 0.7s ease;
-        -webkit-transition: all 0.7s ease;
-        -ms-transition: all 0.7s ease;
-        transition: all 0.7s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
         opacity: 1; }
         .owl-carousel.home-slider .owl-nav .owl-prev span:before,
         .owl-carousel.home-slider .owl-nav .owl-next span:before {

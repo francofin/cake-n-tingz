@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %} | Lifestyle {% endblock %}
 {% block content %}
 
     <section class="hero-wrap hero-wrap-2">
@@ -73,19 +74,15 @@
         	<div class="col-lg-3">
         		<div class="sidebar-wrap">
 	        		<div class="sidebar-box p-4 about text-center ftco-animate">
+                {% for item in ashley_info %}
 			          <h2 class="heading mb-4">About Me</h2>
-			          <img src="/static/images/author.jpg" class="img-fluid" alt="Colorlib Template">
+			          <img src="{{item.about_side_bar.url}}" class="img-fluid" alt="Colorlib Template" style="min-height: 250px; max-height: 250px;>
 			          <div class="text pt-4">
-			          	<p>Hi! My name is <strong>Cathy Deon</strong>, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+			          	<p>{{ item.about_me_side_bar | safe }}</p>
 			          </div>
+                {% endfor %}
 	        		</div>
 	        		<div class="sidebar-box p-4 ftco-animate">
-	              <form action="#" class="search-form">
-	                <div class="form-group">
-	                  <span class="icon icon-search"></span>
-	                  <input type="text" class="form-control" placeholder="Search">
-	                </div>
-	              </form>
 	            </div>
 	            <div class="sidebar-box categories text-center ftco-animate">
 			          <h2 class="heading mb-4">Categories</h2>

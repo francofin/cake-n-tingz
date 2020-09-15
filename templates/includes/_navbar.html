@@ -33,12 +33,17 @@
         </li>
         <li
         {% if 'foods' in request.path %}
-        class="nav-item active"
+        class="nav-item active dropdown"
         {% else %}
-        class="nav-item"
-        {% endif %}><a href="{% url 'foods' %}" class="nav-link" style='font-size: 18px;'>
+        class="nav-item dropdown"
+        {% endif %}><a href="{% url 'foods' %}" class="nav-link"  aria-haspopup="false" aria-expanded="false" style='font-size: 18px;'>
           Foods
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'desserts' %}">Desserts</a>
+          <a class="dropdown-item" href="{% url 'for_kids' %}">Kids Meals</a>
+          <a class="dropdown-item" href="{% url 'dinner_meals' %}">Dinner Meals</a>
+        </div>
       </li>
         <li {% if 'lifestyle' in request.path %}
         class="nav-item active"

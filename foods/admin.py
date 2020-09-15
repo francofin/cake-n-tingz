@@ -9,7 +9,7 @@ class CommentAdmin(admin.ModelAdmin):
     list_per_page=25
 
 class FoodAdmin(admin.ModelAdmin):
-    list_display = ('recipe_title', 'is_for_slider', 'is_for_home_page', 'is_holiday_recipe', 'is_featured_for_home_page', 'is_for_kids', 'is_dessert', 'is_dinner')
+    list_display = ('recipe_title', 'is_for_slider', 'is_for_slider2', 'is_for_home_page', 'is_holiday_recipe', 'is_featured_for_home_page', 'is_for_kids', 'is_dessert', 'is_dinner')
     list_display_link = ('recipe_title')
     search_fields = ['recipe_title']
     list_per_page=25

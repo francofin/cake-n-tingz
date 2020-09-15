@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from pages.models import Team
+from pages.models import Team, Ashley
 from foods.models import Food
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 # Create your views here.
@@ -12,6 +12,7 @@ def index(request):
     holiday_recipes = Food.objects.order_by('-created_date').filter(is_holiday_recipe=True)
     featured_posts = Food.objects.order_by('-created_date').filter(is_featured_for_home_page=True)
     home_page_side_article = Food.objects.order_by('-created_date').filter(is_for_home_page_side=True)
+    ashley_info = Ashley.objects.all()
     data = {
         'featured_foods':featured_foods,
         'all_food':all_food,
@@ -20,14 +21,17 @@ def index(request):
         'holiday_recipes':holiday_recipes,
         'featured_posts': featured_posts,
         'home_page_side_article':home_page_side_article,
+        'ashley_info': ashley_info,
     }
 
     return render(request, 'pages/index.html', data)
 
 def about(request):
     teams = Team.objects.all()
+    ashley_info = Ashley.objects.all()
     data = {
         'teams': teams,
+        'ashley_info': ashley_info,
     }
     return render(request, 'pages/about.html', data)
 

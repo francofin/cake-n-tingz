@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Team
+from .models import Team, Ashley
 from django.utils.html import format_html
 # Register your models here.
 
@@ -14,3 +14,4 @@ class TeamAdmin(admin.ModelAdmin):
     search_fields = ('first_name', 'last_name', )
 
 admin.site.register(Team, TeamAdmin)
+admin.site.register(Ashley)
