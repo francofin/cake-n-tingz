@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %} | Detail {% endblock %}
 {% block content %}
 {% load socialaccount %}
 {% providers_media_js %}
-{% block title %} | Detail {% endblock %}
+
 
     <section>
-      <img  class="hero-wrap hero-wrap-2 " style= "align-self: center;" src="{{lifestyle_article.lifestyle_photo.url}}" style=alt="">
+      <img  class="hero-wrap hero-wrap-2 " style= "max-height: 1200px;" src="{{lifestyle_article.lifestyle_photo.url}}" style=alt="">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -24,113 +25,39 @@
           <div class="col-lg-8 order-lg-last ftco-animate">
             <h2 class="mb-3">{{lifestyle_article.lifestyle_title}}</h2>
             <p>{{lifestyle_article.description | safe }}</p>
-            <div class="tag-widget post-tag-container mb-5 mt-5">
-              <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">Life</a>
-                <a href="#" class="tag-cloud-link">Sport</a>
-                <a href="#" class="tag-cloud-link">Tech</a>
-                <a href="#" class="tag-cloud-link">Travel</a>
-              </div>
-            </div>
 
             <div class="about-author d-flex p-4 bg-light">
               <div class="bio mr-5">
-                <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
+                {% for item in ashley_info %}
+                <img src="{{item.ashley_images_about1.url}}" alt="Image placeholder" class="img-fluid mb-4" style="min-height: 350px; max-height: 350px; min-width: 200px; max-width: 200px;">
               </div>
               <div class="desc">
-                <h3>George Washington</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                <h3>Ashley Woolley</h3>
+                <p>{{ item.food_detail_pre_comment | safe   }}</p>
               </div>
+              {% endfor %}
             </div>
 
-
+            <!-- Start Comment List -->
             <div class="pt-5 mt-5">
-              <h3 class="mb-5">6 Comments</h3>
+              <h3 class="mb-5">Comments</h3>
               <ul class="comment-list">
+                {% for com in all_comments %}
                 <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
                   <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <h3>{{com.first_name}}</h3>
+                    <div class="meta">{{com.create_date}}</div>
+                    <p>{{com.comments}}</p>
                     <p><a href="#" class="reply">Reply</a></p>
                   </div>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="vcard bio">
-                        <img src="images/person_1.jpg" alt="Image placeholder">
-                      </div>
-                      <div class="comment-body">
-                        <h3>John Doe</h3>
-                        <div class="meta">October 03, 2018 at 2:21pm</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                        <p><a href="#" class="reply">Reply</a></p>
-                      </div>
-
-
-                      <ul class="children">
-                        <li class="comment">
-                          <div class="vcard bio">
-                            <img src="images/person_1.jpg" alt="Image placeholder">
-                          </div>
-                          <div class="comment-body">
-                            <h3>John Doe</h3>
-                            <div class="meta">October 03, 2018 at 2:21pm</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                            <p><a href="#" class="reply">Reply</a></p>
-                          </div>
-
-                            <ul class="children">
-                              <li class="comment">
-                                <div class="vcard bio">
-                                  <img src="images/person_1.jpg" alt="Image placeholder">
-                                </div>
-                                <div class="comment-body">
-                                  <h3>John Doe</h3>
-                                  <div class="meta">October 03, 2018 at 2:21pm</div>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                                  <p><a href="#" class="reply">Reply</a></p>
-                                </div>
-                              </li>
-                            </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
+                  {% endfor %}
                 </li>
               </ul>
               <!-- END comment-list -->
 
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
-                <form action="{% url 'comment' %}" class="p-5 bg-light" method="POST">
+                <form action="{% url 'lifestylecomment' %}" class="p-5 bg-light" method="POST">
                   {% csrf_token %}
 
                   {% if user.is_authenticated %}
@@ -139,7 +66,7 @@
                     <input type="hidden" name="user_id" value="0">
                   {% endif %}
 
-                  <input type="hidden" name="food_id" value="{{food_recipe.id}}">
+                  <input type="hidden" name="lifestyle_id" value="{{lifestyle_article.id}}">
                   <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="text" name="first_name" class="form-control" id="name">
@@ -167,75 +94,41 @@
           </div> <!-- .col-md-8 -->
           <div class="col-lg-4 sidebar pr-lg-5 ftco-animate">
             <div class="sidebar-box">
-              <form action="{% url 'add_to_dash' %}" class="search-form" method='POST'>
+              <form action="{% url 'add_to_life_dash' %}" class="search-form" method='POST'>
                 {% csrf_token %}
                 {% if user.is_authenticated %}
                   <input type="hidden" class="form-control" name='user_id' value="{{ user.id }}">
-                  <input type="hidden" class="form-control" name = 'food_id' value="{{ food_recipe.id }}">
-                  <input type="hidden" class="form-control" name = 'food_photo' value="{{ food_recipe.food_photo }}">
-                  <input type="hidden" class="form-control" name = 'food_title' value="{{ food_recipe.food_title }}">
-                  <input type="hidden" class="form-control" name = 'food_description' value="{{ food_recipe.food_description }}">
+                  <input type="hidden" class="form-control" name = 'lifestyle_id' value="{{ lifestyle_article.id }}">
+                  <input type="hidden" class="form-control" name = 'life_photo' value="{{ lifestyle_article.life_photo }}">
+                  <input type="hidden" class="form-control" name = 'lifestyle_title' value="{{ lifestyle_article.lifestyle_title }}">
+                  <input type="hidden" class="form-control" name = 'lifestyle_description' value="{{ lifestyle_article.life_description }}">
                   <button class="btn btn-primary py-3 px-5" name="button"><h4>Add Article to Your DashBoard</h4></button>
                   {% endif %}
               </form>
             </div>
-            <div class="sidebar-box ftco-animate">
-              <ul class="categories">
-                <h3 class="heading mb-4">Ingredients</h3>
-                {% for i in food_recipe.igredients %}
-                <li><p>{{i}}<span>(12)</span></p></li>
-                {% endfor %}
-              </ul>
-            </div>
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading mb-4">Recent Blog</h3>
+              {% for article in new_lifestyle %}
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url({{article.lifestyle_photo.url}});"></a>
                 <div class="text">
-                  <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <h3><a href="#">{{ article.description_short | safe }}</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span>{{ article.created_date}}</a></div>
                   </div>
                 </div>
               </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
-                <div class="text">
-                  <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
+              {% endfor %}
             </div>
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading mb-4">Tag Cloud</h3>
               <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">dish</a>
-                <a href="#" class="tag-cloud-link">menu</a>
-                <a href="#" class="tag-cloud-link">food</a>
-                <a href="#" class="tag-cloud-link">sweet</a>
-                <a href="#" class="tag-cloud-link">tasty</a>
-                <a href="#" class="tag-cloud-link">delicious</a>
-                <a href="#" class="tag-cloud-link">desserts</a>
-                <a href="#" class="tag-cloud-link">drinks</a>
+                <a href="{% url 'for_women' %}" class="tag-cloud-link">Women</a>
+                <a href="{% url 'workouts' %}" class="tag-cloud-link">Workouts</a>
+                <a href="{% url 'travels' %}" class="tag-cloud-link">Travel</a>
+                <a href="{% url 'health_and_well' %}" class="tag-cloud-link">Health</a>
               </div>
             </div>
 

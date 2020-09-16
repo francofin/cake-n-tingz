@@ -46,13 +46,19 @@
         </div>
       </li>
         <li {% if 'lifestyle' in request.path %}
-        class="nav-item active"
+        class="nav-item active dropdown"
         {% else %}
-        class="nav-item"
+        class="nav-item dropdown"
         {% endif %}>
-        <a href="{% url 'lifestyle' %}" class="nav-link" style='font-size: 18px;'>
+        <a href="{% url 'lifestyle' %}" class="nav-link"  aria-haspopup="false" aria-expanded="false" style='font-size: 18px;'>
           Lifestyle
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'workouts' %}">Workouts</a>
+          <a class="dropdown-item" href="{% url 'travels' %}">Travel</a>
+          <a class="dropdown-item" href="{% url 'for_women' %}">For Women</a>
+          <a class="dropdown-item" href="{% url 'health_and_well' %}">Health &amp; Wellness</a>
+        </div>
         </li>
         <li
         {% if 'contact' in request.path %}

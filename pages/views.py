@@ -37,7 +37,7 @@ def about(request):
 
 def for_kids(request):
     kid_meals = Food.objects.order_by('-created_date').filter(is_for_kids=True)
-    paginator = Paginator(kid_meals, 3)
+    paginator = Paginator(kid_meals, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
 
@@ -49,7 +49,7 @@ def for_kids(request):
 
 def desserts(request):
     sweet_treat = Food.objects.order_by('-created_date').filter(is_dessert=True)
-    paginator = Paginator(sweet_treat, 3)
+    paginator = Paginator(sweet_treat, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
 
@@ -61,7 +61,7 @@ def desserts(request):
 
 def dinner_meals(request):
     dinner = Food.objects.order_by('-created_date').filter(is_dinner=True)
-    paginator = Paginator(dinner, 3)
+    paginator = Paginator(dinner, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
 

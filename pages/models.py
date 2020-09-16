@@ -32,6 +32,9 @@ class Ashley(models.Model):
     ashley_images_about1 = models.ImageField(upload_to='photos/%Y/%m/%d/')
     ashley_images_about2 = models.ImageField(upload_to='photos/%Y/%m/%d/')
     about_side_bar = models.ImageField(upload_to='photos/%Y/%m/%d/')
+    side_category_image1 = models.ImageField(upload_to='photos/%Y/%m/%d/', default="")
+    side_category_image2 = models.ImageField(upload_to='photos/%Y/%m/%d/', default="")
+    side_category_image3 = models.ImageField(upload_to='photos/%Y/%m/%d/', default="")
 
     def __str__(self):
         return self.name_element

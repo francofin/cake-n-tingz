@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
 from foods.models import Dashboard, Food
+from pages.models import Ashley
+from lifestyle.models import LifestyleDashboard
 from django.contrib.auth.decorators import login_required
 
 
@@ -55,9 +57,13 @@ def register(request):
 @login_required(login_url='login')
 def dashboard(request):
     user_foods = Dashboard.objects.all().filter(user_id=request.user.id)
+    ashley_info = Ashley.objects.all()
+    # user_lifestyle = LifestyleDashboard.object.all().filter(user_id=request.user.id)
 
     articles = {
         'food_article':user_foods,
+        'ashley_info': ashley_info,
+        # 'user_lifestyle': user_lifestyle,
     }
 
     return render(request, 'pages/dashboard.html', articles)

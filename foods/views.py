@@ -47,7 +47,7 @@ def add_to_dash(request):
 
         food_article = Dashboard(user_id=user_id, food_id=food_id, food_photo=food_photo_url, food_title=food_title, food_description=food_des)
         food_article.save()
-        messages.success(request, 'Article has Been Successfully Added To Your Database')
+        messages.success(request, 'Article has Been Successfully Added To Your Dashboard')
         return redirect('/foods/'+food_id)
 
 # def dashboard(request):
