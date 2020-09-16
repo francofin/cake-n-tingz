@@ -70,3 +70,11 @@ def dinner_meals(request):
     }
 
     return render(request, 'pages/dinners.html', data)
+
+def footer(request):
+    ashley_info = Ashley.objects.all()
+
+    data = {
+        'ashley_info': ashley_info,
+    }
+    return render(request, 'includes/_footer.html', data)

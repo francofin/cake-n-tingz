@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
 from foods.models import Dashboard, Food
 from pages.models import Ashley
 from lifestyle.models import LifestyleDashboard
@@ -32,28 +33,36 @@ def register(request):
         email = request.POST['email']
         password = request.POST['password']
         password2 = request.POST['password2']
+        password_min = 6
 
-        if password == password2:
-            if User.objects.filter(username=username).exists():
-                messages.error(request, 'Username Already Exists')
-                return redirect('register')
-            else:
-                if User.objects.filter(email=email).exists():
-                    messages.error(request, 'Email Already Exists!')
+        if len(password) < password_min:
+            messages.error(request, 'Your Password is Too Short, Please choose a password at least 6 characters long!')
+            return redirect('register')
+        else:
+            if password == password2:
+                if User.objects.filter(username=username).exists():
+                    messages.error(request, 'Username Already Exists')
                     return redirect('register')
                 else:
-                    user = User.objects.create_user(first_name=first_name, last_name=last_name, username=username, password=password)
-                    auth.login(request, user)
-                    messages.success(request, 'you are now logged in')
-                    return redirect('dashboard')
-                    user.save()
-                    messages.succes(request, 'Account Successfully Created. Welcome')
-                    return redirect('index')
-        else:
-            messages.error(request, 'Passwords Do Not Match!')
-            return redirect('register')
+                    if User.objects.filter(email=email).exists():
+                        messages.error(request, 'Email Already Exists!')
+                        return redirect('register')
+                    else:
+                        user = User.objects.create_user(first_name=first_name, last_name=last_name, username=username, password=password)
+                        auth.login(request, user)
+                        messages.success(request, 'you are now logged in')
+                        return redirect('dashboard')
+                        user.save()
+                        messages.succes(request, 'Account Successfully Created. Welcome')
+                        return redirect('index')
+            else:
+                messages.error(request, 'Passwords Do Not Match!')
+                return redirect('register')
     else:
         return render(request, 'pages/register.html')
+
+
+
 @login_required(login_url='login')
 def dashboard(request):
     user_foods = Dashboard.objects.all().filter(user_id=request.user.id)
