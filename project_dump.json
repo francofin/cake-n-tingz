@@ -2,8 +2,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$180000$kUU9sZwfWCMG$hmOO0quLMH6hds14qjGqVz+MuyCsyIT/9yce2VwjC0E=",
-        "last_login": "2020-09-07T05:38:28.308Z",
+        "password": "argon2$argon2i$v=19$m=512,t=2,p=2$NVlaa0xxYWwwNFMy$R2zt+4APmQeGIPEo091v5A",
+        "last_login": "2020-09-16T23:59:15Z",
         "is_superuser": true,
         "username": "ashleyadmin",
         "first_name": "",
@@ -11,7 +11,7 @@
         "email": "francoiskieran89@gmail.com",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2020-08-30T00:03:57.432Z",
+        "date_joined": "2020-08-30T00:03:57Z",
         "groups": [],
         "user_permissions": []
     }
@@ -37,7 +37,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$180000$suJtGyYD5HUu$TH3273jcdSSyRmA3CrxTg9nj7QH1CnTFXYXPLncpBVQ=",
-        "last_login": "2020-09-07T05:16:52.485Z",
+        "last_login": "2020-09-15T17:25:03.983Z",
         "is_superuser": false,
         "username": "jay",
         "first_name": "Jay",
@@ -71,7 +71,7 @@
     "model": "auth.user",
     "fields": {
         "password": "!sifaC6gjiqpaVffMsZnm0HUBsxnmr7JkAIJ7rJ2a",
-        "last_login": "2020-08-31T02:42:32.284Z",
+        "last_login": "2020-09-16T18:02:00.265Z",
         "is_superuser": false,
         "username": "francois4",
         "first_name": "Francois",
@@ -119,6 +119,23 @@
     }
 },
 {
+    "model": "auth.user",
+    "fields": {
+        "password": "argon2$argon2i$v=19$m=512,t=2,p=2$OHZKQUpGTnBIS3BC$NDRkXmDAqmPRlYlvOx9liQ",
+        "last_login": "2020-09-16T15:45:46.017Z",
+        "is_superuser": false,
+        "username": "mjoe",
+        "first_name": "moe",
+        "last_name": "joe",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-09-16T15:45:43.527Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
     "model": "sessions.session",
     "pk": "11njuphg01n39rcy9n0viqih731v2ntl",
     "fields": {
@@ -140,6 +157,14 @@
     "fields": {
         "session_data": "N2I1ZWFlMzhiYzBiNmM0ZWYxMDMzNGY5MjYwNDg4NTg4NTE4ZGMwZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3OTE0MzkxOWM0YTA2ZWU0MGYxOGY1NWRiNDBmNDYzOTE1ZDE1NmFiIn0=",
         "expire_date": "2020-09-21T05:38:28.309Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eewbpa9bdjzbggtxh7eflkvgkurb7sro",
+    "fields": {
+        "session_data": "MTA1ZDk0MDM0NmNiNzU4ZWQxODJmYWQyOGI2OTAxYjM3MTZjZWYwMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5NTU5YWRkMzFhZmU3ZjA1YTUwOGMyMjhkNzdmYWQwZDc4NDgzMWM2In0=",
+        "expire_date": "2020-09-30T23:59:15.519Z"
     }
 },
 {
@@ -166,6 +191,30 @@
         "twitter_link": "https://twitter.com/?lang=en",
         "pintrest_link": "https://www.pinterest.ca/",
         "created_date": "2020-08-30T02:42:16.522Z"
+    }
+},
+{
+    "model": "pages.ashley",
+    "pk": 1,
+    "fields": {
+        "name_element": "Ashley Woolley",
+        "years_of_exp": 7,
+        "food_articles": 20,
+        "lifestyle_articles": 10,
+        "customers": 40,
+        "home_page_about": "<p>Hungry, Well I Can&#39;t blame you for wanting to treat hunger the right way. You&#39;ve come to the best spot to satisfy your cravings. Browse through my favorite recipes and get ready to inhale some great food.&nbsp;</p>",
+        "about_me_side_bar": "<p>Hi!, Welcome to Ashley. Whether you&#39;re making a meal for parties, dinner, breakfast (my favorite), for the kids or you&#39;re just craving a slice of some delicious banana bread, I&#39;ve got some great recipes to help you through the kitchen and make&nbsp;that perfect meal for any occasion.&nbsp;</p>",
+        "about_stories2": "<p>As somoeone with a passion for food and a healthy lifestyle, I am greatful to be able to share with you some of my favorite recipes, workouts and overall tips and ideas for a well balanced lifestyle.&nbsp;</p>",
+        "about_short": "<p>One of the advantages of being disorderly, is that one is constantly making exciting discoveries. - A.A. Milne</p>",
+        "food_detail_pre_comment": "<p>Imagination is more important than knowledge. Knowledge is limited, Imagination encircles the world. -&nbsp; Albert Einstein.&nbsp;</p>",
+        "last_update": "2020-09-14T22:54:00Z",
+        "ashley_images_home": "photos/2020/09/14/ashley.jpg",
+        "ashley_images_about1": "photos/2020/09/14/ashley_VxIm7vh.jpg",
+        "ashley_images_about2": "photos/2020/09/14/image_4.jpg",
+        "about_side_bar": "photos/2020/09/14/ashley_7vuFbX5.jpg",
+        "side_category_image1": "photos/2020/09/16/category-2.jpg",
+        "side_category_image2": "photos/2020/09/16/lifestyle_side.jpg",
+        "side_category_image3": "photos/2020/09/16/health_side.jpg"
     }
 },
 {
@@ -229,6 +278,30 @@
     }
 },
 {
+    "model": "contact.contact",
+    "pk": 7,
+    "fields": {
+        "first_name": "mike",
+        "email": "mike@gmail.com",
+        "subject": "Where do you operate",
+        "message": "Hi, I would like to know how far you deliver your cakes.",
+        "user_id": 1,
+        "create_date": "2020-09-16T18:25:30.603Z"
+    }
+},
+{
+    "model": "contact.contact",
+    "pk": 8,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "subject": "How do you do it! You're Amazing",
+        "message": "I would like to know how you make such amazing food, any classes? PS I need a life coach. ",
+        "user_id": 0,
+        "create_date": "2020-09-16T19:58:10.491Z"
+    }
+},
+{
     "model": "lifestyle.lifestyle",
     "pk": 1,
     "fields": {
@@ -244,6 +317,13 @@
         "lifestyle_photo_6": "",
         "owner": "Ashley",
         "is_for_lifestyle_page": true,
+        "is_workout": false,
+        "is_health": true,
+        "is_new_for_blog": false,
+        "is_travel": false,
+        "is_for_women": false,
+        "is_for_men": false,
+        "is_for_family": false,
         "category": "Organic Foods",
         "created_date": "2020-09-06T19:00:32Z"
     }
@@ -264,8 +344,189 @@
         "lifestyle_photo_6": "",
         "owner": "Ashley",
         "is_for_lifestyle_page": true,
+        "is_workout": true,
+        "is_health": false,
+        "is_new_for_blog": false,
+        "is_travel": false,
+        "is_for_women": true,
+        "is_for_men": true,
+        "is_for_family": false,
         "category": "Workouts",
         "created_date": "2020-09-06T19:53:20Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 3,
+    "fields": {
+        "lifestyle_title": "Travel Espa\u00f1a",
+        "description": "<p>La Sagrada Fam&iacute;lia Basilica by Antonio Gaud&iacute;</p>\r\n\r\n<p>La Sagrada Fam&iacute;lia is one of Gaud&iacute;&#39;s most famous works in Barcelona. It&#39;s a giant Basilica that has been under construction since 1882 (that&#39;s not a typing error) and it&#39;s not expected to be completed for some time yet.</p>\r\n\r\n<p>When you visit the building you will see the contrast in the stone colour between the front and back of the building. Also the actual style of construction appears somewhat different between the new and old parts of the building.</p>\r\n\r\n<p>Gaud&iacute; played an active role in directing the construction of the Sagrada Fam&iacute;lia until his death in 1926. He would often request that work be modified and adjusted until it was exactly what he had in mind. However today, because of the nature of the existing designs, his work is partly open to interpretation.</p>\r\n\r\n<p>Interpretation of the designs by present day architects is particularly challenging because the actual construction stones are irregularly shaped.</p>\r\n\r\n<p>The building is still under construction so be prepared to see a lot of work continuing when you visit. However this in itself is interesting, especially if you visit the museum inside the building.</p>\r\n\r\n<p>Regardless of all the controversy surrounding the Sagrada Fam&iacute;lia it is a truly magnificent building and an&nbsp;<strong>absolute must-see</strong>&nbsp;when you visit Barcelona.</p>\r\n\r\n<p><strong>Address:</strong>&nbsp;La Sagrada Familia<br />\r\nCarrer Mallorca, 401<br />\r\n08013 Barcelona, Espa&ntilde;a.</p>",
+        "description_short": "<p>La Sagrada Fam&iacute;lia Basilica by Antonio Gaud&iacute;</p>",
+        "lifestyle_photo": "photos/2020/09/15/IMG-20180820-WA0018.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "is_workout": false,
+        "is_health": false,
+        "is_new_for_blog": true,
+        "is_travel": true,
+        "is_for_women": false,
+        "is_for_men": false,
+        "is_for_family": true,
+        "category": "Travel",
+        "created_date": "2020-09-15T15:29:39Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 4,
+    "fields": {
+        "lifestyle_title": "Magical Beaches - Tobago",
+        "description": "<h1>Why Pigeon Point, Tobago is one of the island&rsquo;s best beaches</h1>\r\n\r\n<p>When it comes to beaches, the tiny island of Tobago has an embarrassment of riches along its coastline, including a standout spot that could easily be in the running as one of the Caribbean&rsquo;s best: Pigeon Point beach.</p>\r\n\r\n<p>Found on the western tip of the island, it&rsquo;s the most popular stretch of sand in whole country and easily accessible from the capital city of Scarborough, making it a great day trip for those arriving in Tobago on a cruise. From port, visitors can easily hire a taxi to drive them there and back for about $20, and it&rsquo;s also only a few minutes from the airport.</p>\r\n\r\n<p>Pigeon Point beach is one of those postcard-worthy scenes&mdash;in fact, pictures of its thatch-roof jetty are widely used in tourism campaigns, making it somewhat of a symbol of Tobago. This jetty is also where excursions such as the&nbsp;<a href=\"http://www.anrdoezrs.net/links/7583967/type/dlg/https://www.tripadvisor.com/AttractionProductDetail-g147392-d11482825-Tobago_Buccoo_Reef_Glass_Bottom_Boat_Tour-Tobago_Trinidad_and_Tobago.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>glass-bottom boat tours</strong></a>&nbsp;of Buccoo Reef and the Nylon Pool depart from.&nbsp;</p>\r\n\r\n<p>Pigeon Point is a&nbsp;<a href=\"http://www.pigeonpoint.tt/\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>heritage park</strong></a>, and there is a $3 entrance fee to get in which is used to maintain the beach facilities. The beach itself is lined with cute souvenir shops, food stalls, washroom and shower facilities, chair rentals as well as a number of people selling activities such as boat tours around the island. It&rsquo;s possible to negotiate on pricing depending on how many people are in the group.</p>\r\n\r\n<p>It&rsquo;s easy to spend a day under the swaying palm trees, relaxing on the brilliant white sand which is incredibly soft and free from any sort of rubble. The&nbsp;aqua-marine water beckons, and those wanting to go for a dip will find they can&nbsp;wade a great distance into this part of the Caribbean Sea without the water going above waist height, which makes it a great option for those who aren&rsquo;t confident swimmers.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>The most popular way to spend an afternoon at Pigeon Point beach is to hop on a glass-bottom boat tour of nearby Buccoo Reef. This incredible area is made up of five reef flats that make up a small lagoon, surrounded by vibrant coral. The locals have dubbed it the &lsquo;Nylon Pool&rsquo; thanks to its brilliant colour, and travellers can expect to see a number of tropical fish, either by staying put in the boat or snorkelling.</p>\r\n\r\n<p>With its gorgeous views, soft sand and crystal-clear water, it&rsquo;s easy to see why Pigeon Point beach is one of the best beaches in Tobago, as well as one of the top places to visit. Just make sure to pack sunscreen!</p>",
+        "description_short": "<p>With its gorgeous views, soft sand and crystal-clear water, it&rsquo;s easy to see why Pigeon Point beach is one of the best beaches in Tobago, as well as one of the top places to visit. Just make sure to pack sunscreen!</p>",
+        "lifestyle_photo": "photos/2020/09/15/tobago.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "is_workout": false,
+        "is_health": false,
+        "is_new_for_blog": false,
+        "is_travel": true,
+        "is_for_women": false,
+        "is_for_men": false,
+        "is_for_family": true,
+        "category": "travel",
+        "created_date": "2020-09-15T15:33:06Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 5,
+    "fields": {
+        "lifestyle_title": "A HIIT Workout at Home",
+        "description": "<p>While the popularity of high-intensity interval training (HIIT) might have reached new heights in the past few years it&rsquo;s far from a new concept. Over 100 years ago Finnish runner Hannes Kolehmainen spiced up his training for the Olympics with interval sessions, and hard-working Hannes was rewarded for his endeavours in the shape of gold in the 5,000m, 10,000m and cross-country events.</p>\r\n\r\n<p>These days the term HIIT is used to describe a fairly wide range of training methods, which is why it&rsquo;s not always clear what it is beyond the basics of work, rest, repeat. That description is not wrong, but it doesn&rsquo;t get anywhere close to providing the full picture when it comes to what undertaking a HIIT session actually involves.</p>\r\n\r\n<p>Below you&rsquo;ll find all the information you need on how to incorporate HIIT into your regular workout schedule, and how it can benefit you no matter what your overall goals are &ndash; whether you&rsquo;re trying to lose weight, build lean muscle or knock a few seconds off your 5K PB. Crucially, you&rsquo;ll also learn how often you should do HIIT, because it&rsquo;s not a style of training you should use every day &ndash; you&rsquo;ll risk injury or burnout.</p>\r\n\r\n<h2>What Is HIIT?</h2>\r\n\r\n<p>While &ldquo;hard work, short rests&rdquo; is the essence of HIIT, there are five main variables that can change the nature of your HIIT workout massively. The first two are your work and rest durations. Working for 40 seconds and resting for 20 is significantly different to resting for 40 and working for 20, with longer work periods generally being better for improving endurance and shorter ones better for power.</p>\r\n\r\n<p>Then there&rsquo;s the intensity of the work periods. With HIIT you need to be pushing hard to get the most benefit from it, and it&rsquo;s also important to try and maintain a consistent level of effort across the work periods. That means it&rsquo;s not just about going all-out, because you won&rsquo;t be able to sustain it across the workout.</p>\r\n\r\n<p>&ldquo;You need to know your target heart rate or understand the rating of perceived exertion (RPE),&rdquo; says Philippe Ndongmo, a personal trainer at Dolphin Square Fitness Club in London. Rate the latter out of ten and try to keep the effort constant across every interval.</p>\r\n\r\n<p>The fourth variable is the type of rest you do &ndash; are you stopping completely or engaging in active recovery, like pedalling slowly on an exercise bike? The latter can help flush out lactic acid ahead of your next work period.</p>\r\n\r\n<p>Lastly there&rsquo;s total volume, as in how many intervals you do. It&rsquo;s easy to do too much with HIIT, which ends up being of no real benefit because by the end of the workout you&rsquo;re unable to maintain the intensity. As a rule, start with low volume and go as hard as possible. When it feels easy, add a round or two, but drop the RPE slightly.</p>\r\n\r\n<p>That&rsquo;s just about it. There aren&rsquo;t any hard and fast rules when it comes to HIIT in terms of the type of exercise you do. It can be done with&nbsp;<a href=\"https://www.coachmag.co.uk/exercises/bodyweight-exercises\">bodyweight moves</a>, cycling, running or weights, just as long as you&rsquo;re able to do it at a high intensity. That makes some disciplines more suitable than others. Rattling out efforts on an exercise bike is significantly less dangerous than trying to do heavy&nbsp;<a href=\"https://www.coachmag.co.uk/barbell-exercises/6705/how-to-master-the-barbell-back-squat\">barbell squats</a>&nbsp;at a furious pace (please don&rsquo;t do heavy barbell squats at a furious pace).</p>\r\n\r\n<p>You can cycle through a circuit of different exercises for your HIIT session, or stick to one or two for all of your reps. The latter makes it easy to hit your time targets because you don&rsquo;t have to switch exercise equipment during your rest periods, but doing a circuit containing a variety of moves means you can target more muscle groups during your workout.</p>\r\n\r\n<h2>The Benefits Of HIIT Workouts</h2>\r\n\r\n<p>Let&rsquo;s start with the calories you&rsquo;ll burn, which are many, not only during the workout but also in the hours afterwards. The latter comes from the excess post-exercise oxygen consumption (EPOC) effect, where your body burns more calories as it returns to its normal resting state after a workout and adapts to the exercise you&rsquo;ve done. The EPOC effect increases with the intensity of the exercise you do, which is why HIIT is such an effective fat burner.</p>\r\n\r\n<p>HIIT also increase your&nbsp;<a href=\"https://www.coachmag.co.uk/fitness/6987/what-is-vo2-max-and-how-do-you-improve-it\">VO2 max</a>, which is the amount of oxygen your body can use and is an indicator of cardio fitness. This is why any running or cycling training plan worth its salt has some form of&nbsp;<a href=\"https://www.coachmag.co.uk/running/1761/interval-training-for-runners\">interval training</a>&nbsp;in it. Increasing your VO2 max is key to working harder for longer, helping you log a 5K personal best, for example.</p>\r\n\r\n<p>There are also logistical benefits to HIIT, like the fact your workout takes less time so you can fit it into a lunch break. And while it&rsquo;s tremendously hard work, the short, sharp challenge of HIIT ensures you&rsquo;ll never get bored with your training.</p>\r\n\r\n<h2>When To Avoid High-Intensity Circuit Training</h2>\r\n\r\n<p>If you&rsquo;re feeling worn down in the first place, HIIT isn&rsquo;t the session to go for. &ldquo;A common mistake with HIIT is the assumption that it trumps steady-state cardio at all times, which isn&rsquo;t true,&rdquo; says David Jordan from personal training gym&nbsp;<a href=\"https://thefittingrooms.london/\" rel=\"nofollow\" target=\"_blank\">The Fitting Rooms</a>.</p>\r\n\r\n<p>&ldquo;HIIT is highly effective because it requires less time and burns calories during recovery. However, to reap the benefits of HIIT you need to attack it with a lot of energy. On days when you&rsquo;re feeling less than 100% or, more importantly, you&rsquo;re sore from your previous workout and are at risk of pulling a muscle, then steady-state cardio is probably more effective &ndash; and safer.&rdquo;</p>\r\n\r\n<p>Finally, it&rsquo;s important to consider how often you can do &ldquo;real&rdquo; HIIT. &ldquo;It&rsquo;s true that HIIT can trigger protein synthesis but it also causes protein breakdown,&rdquo; says Jordan. &ldquo;Doing several HIIT sessions a week would be catabolic so while you&rsquo;d lose weight overall, some of that loss would be muscle mass.</p>\r\n\r\n<p>&ldquo;If building muscle is a goal, proper&nbsp;<a href=\"https://www.coachmag.co.uk/fitness/5187/weight-training-advice-the-key-questions-answered\">weight training</a>&nbsp;still needs to be your primary focus with HIIT as a supplement. A training split of two weights sessions and two HIIT a sessions a week would keep you lean, while making sure you aren&rsquo;t overtrained.&rdquo;</p>\r\n\r\n<p>Remember: it&rsquo;s supposed to be short, intense and infrequent, not an everyday effort. Recovery days are vital both for avoiding injury and for ensuring you can actually work at the intensity required for effective HIIT. Simply put, if you&rsquo;re doing four or five HIIT sessions a week, it probably isn&rsquo;t real HIIT, and you&rsquo;re probably going to get injured.</p>\r\n\r\n<h2>Types Of HIIT Workouts</h2>\r\n\r\n<h4>Beginner: Timmons Method</h4>\r\n\r\n<p>Developed by a team at Loughborough University, this one&rsquo;s entry-level. Do 20 seconds of all-out work, followed by two minutes of active recovery (walking/freewheeling will do) or complete rest. Repeat three times, and you&rsquo;re done.</p>\r\n\r\n<h4>Intermediate: 10-20</h4>\r\n\r\n<p>Also known as &ldquo;reverse Tabata&rdquo;, this doubles the rest and reduces the work intervals to shift the focus to anaerobic fitness. Use it if you&rsquo;re aiming for power production, or if you don&rsquo;t have the fitness for an all-out Tabata (explained below). Warm up for ten minutes, then do six to eight rounds.</p>\r\n\r\n<h4>Advanced: 10-20-30</h4>\r\n\r\n<p>Now things get complicated. In this plan, you&rsquo;ll do five &ldquo;blocks&rdquo; of work, made up of 30 seconds at 30% intensity, 20 seconds at 60% and ten seconds all-out. Result? Lots of volume, at manageable intensity.</p>\r\n\r\n<h4>Nasty:&nbsp;<a href=\"https://www.coachmag.co.uk/exercises/lose-weight/1699/tabata-training-protocol\">Tabata</a></h4>\r\n\r\n<p>The most famous HIIT protocol is ideal for increasing VO2 max &ndash; as long as you do it right. Twenty seconds of all-out work, followed by ten seconds of rest, repeated eight times, improved endurance by as much as 30 minutes of steady-state cardio in a Queen&rsquo;s University study. The key is keeping intensity high &ndash; if you can talk during the session, you&rsquo;re getting it wrong.</p>\r\n\r\n<h2>Seven HIIT Workouts To Try</h2>\r\n\r\n<h3>Kettlebell HIIT Workout For Fat Loss</h3>\r\n\r\n<p>A Louisiana University study that compared&nbsp;<a href=\"https://www.coachmag.co.uk/kettlebell-exercises/1730/how-to-do-a-kettlebell-swing\">kettlebell swings</a>,&nbsp;<a href=\"https://www.coachmag.co.uk/barbell-exercises/6964/how-to-master-the-power-clean\">cleans</a>&nbsp;and&nbsp;<a href=\"https://www.coachmag.co.uk/barbell-exercises/3725/how-to-deadlift\">deadlifts</a>&nbsp;with a more traditional sprint training programme found that maximum heart rate was only slightly higher in the sprints, while calorie expenditure was bigger with the bells.</p>\r\n\r\n<p>Here&rsquo;s one of our favourite circuits. Rest for 30 seconds at the end, then repeat for three to five rounds.</p>\r\n\r\n<ol>\r\n\t<li><strong>Alternating swing (30sec)</strong>&nbsp;Similar to the traditional swing but alternating arms at the top portion of the lift.</li>\r\n\t<li><strong>Clean and jerk (15sec left arm, 15sec right arm)</strong>&nbsp;Finish each 15-second work block by pressing the kettlebell over your head.</li>\r\n\t<li><strong><a href=\"https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat\">Goblet squat</a>&nbsp;(30sec)</strong>&nbsp;Hold the kettlebell close to your chest and keep your back straight.</li>\r\n</ol>\r\n\r\n<h3>All-Out Exercise Bike HIIT Workout</h3>\r\n\r\n<p>There&rsquo;s a reason lots of studies use exercise bikes: going all-out on the pedals isn&rsquo;t too technical, injury risk is low and you can ruin yourself. For &ldquo;supramaximal&rdquo; efforts, which stimulate every available muscle fibre, the bike is the perfect choice.</p>\r\n\r\n<p>When looking to improve the fitness levels of Premier League footballers in pre-season, strength and conditioning coaches at the country&rsquo;s top clubs have a particular favourite in the Tabata protocol. It&rsquo;s used up to four times a week and typically performed on an exercise bike. You can reap the same rewards by following the plan: 20 seconds sprint cycle; ten seconds rest or slower cycle; repeat for eight rounds.</p>\r\n\r\n<h3>Battle Ropes HIIT Workout For An All-Day Burn</h3>\r\n\r\n<p>In a College of New Jersey study,&nbsp;<a href=\"https://www.coachmag.co.uk/full-body-workouts/3781/battle-rope-exercises-and-workouts-to-get-you-ripped\">battle ropes</a>&nbsp;beat 13 other exercises (including burpees) for energy expenditure and produced the highest average heart rate. The protocol: 15 seconds of single-arm waves, 15 seconds of double-arm waves, 60 seconds&rsquo; rest, repeated eight times.</p>\r\n\r\n<h3>Burpee HIIT Workout To Improve Endurance</h3>\r\n\r\n<p>In the same New Jersey study, burpees beat four other bodyweight moves and every free weights exercise for VO2 response. If you&rsquo;re short on time and space, use the Wingate protocol: 30 seconds all-out, then four minutes of rest, done four to six times.</p>\r\n\r\n<h3>Sprint Workout To Increase Power</h3>\r\n\r\n<p>&ldquo;Production training&rdquo; workouts improve your ability to work at maximum effort with short rest. They are ultra-short, super-hard exercise intervals combined with long rests for a workout that&rsquo;ll improve your power. Use them when you&rsquo;re chasing a 500m row PB or preparing for a boxing bout.</p>\r\n\r\n<h4>1 Mountain slider</h4>\r\n\r\n<p><strong>Work</strong>&nbsp;15sec&nbsp;<strong>Rest</strong>&nbsp;1min 30sec&nbsp;<strong>Rounds</strong>&nbsp;6</p>\r\n\r\n<p>Start in a press-up position with your feet on a pair of small towels or Valslides, then bring one knee and then the other up to your chest as fast as possible. Think of it like a crawling sprint.</p>\r\n\r\n<h4>2&nbsp;<a href=\"https://www.coachmag.co.uk/full-body-exercises/6500/how-to-do-the-thruster\">Thruster</a></h4>\r\n\r\n<p><strong>Work</strong>&nbsp;15sec&nbsp;<strong>Rest</strong>&nbsp;1min 15sec&nbsp;<strong>Rounds</strong>&nbsp;6</p>\r\n\r\n<p>Holding a light pair of dumbbells at shoulder height or a light barbell on your shoulders, drop into a squat. As you stand up, drive the weight overhead, then lower straight into the next rep.</p>\r\n\r\n<h3>Endurance HIIT Workout To Improve Your 5K Time</h3>\r\n\r\n<p>&ldquo;Maintenance training&rdquo; workouts use longer work intervals and slightly shorter rests to increase your body&rsquo;s ability to sustain exercise at high intensity, using both your aerobic and anaerobic systems.</p>\r\n\r\n<h4>1&nbsp;<a href=\"https://www.coachmag.co.uk/kettlebell-exercises/1730/how-to-do-a-kettlebell-swing\">Kettlebell swing</a></h4>\r\n\r\n<p><strong>Work</strong>&nbsp;30sec&nbsp;<strong>Rest</strong>&nbsp;1min 30sec&nbsp;<strong>Rounds</strong>&nbsp;6</p>\r\n\r\n<p>Using a moderate-weight kettlebell, swing it back between your legs and then pop your hips forwards to swing it to eye level, letting it drop straight into the next rep.</p>\r\n\r\n<h4>2 Assault AirBike</h4>\r\n\r\n<p><strong>Work</strong>&nbsp;15sec&nbsp;<strong>Rest</strong>&nbsp;45sec&nbsp;<strong>Rounds</strong>&nbsp;10</p>\r\n\r\n<p>The Assault AirBike forces you to use your full body for a short-but-nasty experience. Haven&rsquo;t got one? A regular exercise bike also works.</p>\r\n\r\n<h3>HIIT Workout To Get Lean In Your Lunch Break</h3>\r\n\r\n<p>Shortening the rests and keeping the work rate high burns more calories during and after your workout, for maximum fat loss. This session from Ndongmo will get you lean in your lunch break. Do all three exercises to complete one round, and repeat eight times.</p>\r\n\r\n<h4>1&nbsp;<a href=\"https://www.coachmag.co.uk/exercises/leg-exercises/2720/variation-jumping-lunge\">Jump lunge</a></h4>\r\n\r\n<p><strong>Work</strong>&nbsp;20sec&nbsp;<strong>Rest</strong>&nbsp;10sec</p>\r\n\r\n<p>Explode off the ground and change legs in the air on each rep. Rest for ten seconds, then go straight into exercise 2.</p>\r\n\r\n<h4>2 High knees</h4>\r\n\r\n<p><strong>Work</strong>&nbsp;20sec&nbsp;<strong>Rest</strong>&nbsp;10sec</p>\r\n\r\n<p>Run on the spot, bringing your knees as high as possible. Keep the intensity high throughout, then rest for ten seconds.</p>\r\n\r\n<h4>3&nbsp;<a href=\"https://www.coachmag.co.uk/core-exercises/5918/squat-jumps-how-to-build-power-with-the-jumping-squat\">Jump squat</a></h4>\r\n\r\n<p><strong>Work</strong>&nbsp;20sec&nbsp;<strong>Rest</strong>&nbsp;30sec</p>\r\n\r\n<p>Drop into a squat and then explode off the floor, landing as softly as possible. Rest for 30 seconds before you start the next round.</p>\r\n\r\n<p>&nbsp;</p>",
+        "description_short": "<h3>HIIT Workout at Home: 15 Best to Get Your Blood Pumping From 5- to 30-Minutes Long</h3>",
+        "lifestyle_photo": "photos/2020/09/15/workout1.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "is_workout": true,
+        "is_health": false,
+        "is_new_for_blog": true,
+        "is_travel": false,
+        "is_for_women": true,
+        "is_for_men": true,
+        "is_for_family": false,
+        "category": "Workouts",
+        "created_date": "2020-09-15T15:45:22Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 6,
+    "fields": {
+        "lifestyle_title": "Healthy lifestyle: 5 keys to a longer life",
+        "description": "<p>How is it that the United States spends the most money on healthcare, and yet still has the one of the lowest life expectancies of all developed nations? (To be specific: $9,400 per capita, 79 years, and 31st.)</p>\r\n\r\n<p>Maybe those of us in healthcare have been looking at it all wrong, for too long.</p>\r\n\r\n<h3>Healthy lifestyle and longevity</h3>\r\n\r\n<p>Researchers from the Harvard T.H. Chan School of Public Health&nbsp;<a href=\"http://circ.ahajournals.org/content/early/2018/04/25/CIRCULATIONAHA.117.032047?utm_source=STAT+Newsletters&amp;utm_campaign=a66483f1f0-MR&amp;utm_medium=email&amp;utm_term=0_8cab1d7961-a66483f1f0-149584961\" target=\"_blank\">conducted a massive study</a>&nbsp;of the impact of health habits on life expectancy, using data from the well-known Nurses&rsquo; Health Study (NHS) and the Health Professionals Follow-up Study (HPFS). This means that they had data on a huge number of people over a very long period of time. The NHS included over 78,000 women and followed them from 1980 to 2014. The HPFS included over 40,000 men and followed them from 1986 to 2014. This is over 120,000 participants, 34 years of data for women, and 28 years of data for men.</p>\r\n\r\n<p>The researchers looked at NHS and HPFS data on diet, physical activity, body weight, smoking, and alcohol consumption that had been collected from regularly administered, validated questionnaires.</p>\r\n\r\n<h3>What is a healthy lifestyle, exactly?</h3>\r\n\r\n<p>These five areas were chosen because prior studies have shown them to have a large impact on risk of premature death. Here is how these healthy habits were defined and measured:</p>\r\n\r\n<p><strong>1.&nbsp; &nbsp;Healthy diet</strong>, which was calculated and rated based on the reported intake of healthy foods like vegetables, fruits, nuts, whole grains, healthy fats, and omega-3 fatty acids, and unhealthy foods like red and processed meats, sugar-sweetened beverages, trans fat, and sodium.</p>\r\n\r\n<p><strong>2.&nbsp; Healthy physical activity level</strong>, which was measured as at least 30 minutes per day of moderate to vigorous activity daily.</p>\r\n\r\n<p><strong>3.&nbsp; &nbsp;<a href=\"https://www.health.harvard.edu/blog/obesity-is-complicated-and-so-is-treating-it-2018053013943\">Healthy body weight</a><em>,</em></strong>&nbsp;defined as a normal body mass index (BMI), which is between 18.5 and 24.9.</p>\r\n\r\n<p><strong>4.&nbsp; &nbsp;Smoking</strong>, well, there is no healthy amount of smoking. &ldquo;Healthy&rdquo; here meant never having smoked.</p>\r\n\r\n<p><strong>5.&nbsp; &nbsp;<a href=\"https://www.health.harvard.edu/blog/this-is-your-brain-on-alcohol-2017071412000\">Moderate alcohol intake</a></strong>, which was measured as between 5 and 15 grams per day for women, and 5 to 30 grams per day for men. Generally,&nbsp;<a href=\"https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/what-standard-drink\" target=\"_blank\">one drink</a>&nbsp;contains about 14 grams of pure alcohol. That&rsquo;s 12 ounces of regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits.</p>\r\n\r\n<p>Researchers also looked at data on age, ethnicity, and medication use, as well as comparison data from the National Health and Nutrition Examination Surveys and the Centers for Disease Control and Prevention&rsquo;s Wide-Ranging Online Data for Epidemiologic Research.</p>\r\n\r\n<h3>Does a healthy lifestyle make a difference?</h3>\r\n\r\n<p>As it turns out, healthy habits make a big difference. According to this analysis, people who met criteria for all five habits enjoyed significantly, impressively longer lives than those who had none: 14 years for women and 12 years for men (if they had these habits at age 50). People who had none of these habits were far more likely to die prematurely from cancer or cardiovascular disease.</p>\r\n\r\n<p>Study investigators also calculated life expectancy by how many of these five healthy habits people had. Just one healthy habit (and it didn&rsquo;t matter which one) &hellip;&nbsp;<em>just one</em>&hellip; extended life expectancy by two years in men and women. Not surprisingly, the more healthy habits people had, the longer their lifespan. This is one of those situations where I wish I could reprint their graphs for you, because they&rsquo;re so cool. (But if you&rsquo;re very curious, the article is available online, and the graphs&nbsp;<a href=\"https://www.distilledspirits.org/wp-content/uploads/2018/04/CIRCULATIONAHA.117.032047.full_.pdf\" target=\"_blank\">are on page 7</a>. Check out Graph B, &ldquo;Estimated life expectancy at age 50 according to the number of low-risk factors.&rdquo;)</p>\r\n\r\n<p>This is&nbsp;<em>huge</em>. And, it confirms prior similar research &mdash; a lot of prior similar research.&nbsp;<a href=\"https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2016.1569\" target=\"_blank\">A 2017 study</a>&nbsp;using data from the Health and Retirement Study found that people 50 and older who were normal weight, had never smoked, and drank alcohol in moderation lived on average seven years longer.&nbsp;<a href=\"https://www.sciencedirect.com/science/article/pii/S0091743512002666?via%3Dihub\" target=\"_blank\">A 2012 mega-analysis</a>&nbsp;of 15 international studies that included over 500,000 participants found that over half of premature deaths were due to unhealthy lifestyle factors such as poor diet, inactivity, obesity, excessive alcohol intake, and smoking. And the list of supporting research goes on.</p>\r\n\r\n<h3>So what&rsquo;s our (big) problem?</h3>\r\n\r\n<p>As the authors of this study point out, in the US we tend to spend outlandishly on developing fancy drugs and other treatments for diseases, rather than on trying to prevent them. This is a big problem.</p>\r\n\r\n<p><a href=\"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)33324-X/abstract\" target=\"_blank\">Experts have suggested</a>&nbsp;that the best way to help people make healthy diet and lifestyle change is at the large-scale, population level, through public health efforts and policy changes. (Kind of like motorcycle helmets and seat belt legislation&hellip;) We have made a little progress with&nbsp;<a href=\"https://www.fda.gov/TobaccoProducts/Labeling/RulesRegulationsGuidance/ucm246129.htm\" target=\"_blank\">tobacco</a>&nbsp;and&nbsp;<a href=\"https://www.fda.gov/Food/IngredientsPackagingLabeling/FoodAdditivesIngredients/ucm449162.htm\" target=\"_blank\">trans-fat legislation</a>.</p>\r\n\r\n<p>There&rsquo;s a lot of pushback from big industry on that, of course. If we have guidelines and laws helping us to live healthier, big companies aren&rsquo;t going to sell as much fast food, chips, and soda. And for companies hell-bent on making money at the cost of human life, well, that makes them very angry.</p>",
+        "description_short": "<p>A Healthy lifestyle and longevity</p>",
+        "lifestyle_photo": "photos/2020/09/15/pexels-vegan-liftz-2377166.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "is_workout": false,
+        "is_health": true,
+        "is_new_for_blog": true,
+        "is_travel": false,
+        "is_for_women": false,
+        "is_for_men": false,
+        "is_for_family": false,
+        "category": "Health",
+        "created_date": "2020-09-15T19:54:25Z"
+    }
+},
+{
+    "model": "lifestyle.lifestyle",
+    "pk": 7,
+    "fields": {
+        "lifestyle_title": "How The Female Brain Works",
+        "description": "<p>Lisa Mosconi, a neuroscientist and director of the Women&rsquo;s Brain Initiative at Weill Cornell Medical College in New York City, focuses her research on what she says is one of the most under-researched, underdiagnosed and underrated fields in medicine: the female brain and women&rsquo;s brain health.</p>\r\n\r\n<p>In her new book, &ldquo;The XX Brain,&rdquo; which comes out March 10, she explains the differences between the female and male brains and explores the different ways the brain affects women&rsquo;s health. She offers practical tips on how to optimize brain health and discusses the unique risks women have for developing Alzheimer&rsquo;s disease and actions they can take to help prevent it.</p>\r\n\r\n<p>Here are edited excerpts from a recent interview:</p>\r\n\r\n<p><strong>How are female brains different than male brains?</strong></p>\r\n\r\n<p>There&rsquo;s some really strong research showing that women&rsquo;s brains are not the same as men&rsquo;s brains from the minute we&rsquo;re born. They&rsquo;re wired a little bit differently because the DNA is different.</p>\r\n\r\n<p>Some parts of women&rsquo;s brains are better or more interconnected with each other, which has been linked to our capacity to multitask. Not to say that men are not able to, but women seem to have a little bit of an advantage in that department. In the same way women have better verbal memory than men.</p>\r\n\r\n<p>But the most important thing that we have shown is that women&rsquo;s brains age differently than men&rsquo;s brains and that there are hormones and changes&mdash;in particular menopause&mdash;which really play a key role here.</p>\r\n\r\n<p><strong>You refer to the term &ldquo;bikini medicine&rdquo; in your book. Can you explain that?</strong></p>\r\n\r\n<p>Bikini medicine is like saying that women are men with boobs and tubes. It&rsquo;s saying that the only things that makes a woman a woman from a biological and medical perspective are the parts of the body we cover under a bikini. That for a long time meant that medical professionals would diagnose and treat both genders the same exact way. That&rsquo;s obviously problematic for a number of reasons, but also it led to thinking that women did not need to be included in research.</p>\r\n\r\n<p>Today we are required by law to enroll men and women in the studies. But then what happens is that the studies just lump them together. So we still have a series of biases and mistakes in research where there&rsquo;s this assumption that female physiology is the same as male physiology as long as we&rsquo;re not talking about reproduction.</p>\r\n\r\n<p><strong>What are some of the health conditions and diseases that women are more prone to because of these differences?</strong></p>\r\n\r\n<p>Anxiety and depression are much more common in women than men, especially starting in midlife but also really since puberty. And then autoimmune disorders like multiple sclerosis&mdash;women are more than three times as likely as men to develop these disorders.</p>\r\n\r\n<p>Women are four times more likely than men to have headaches and migraines. Women are way more likely to even have a brain tumor, and again especially around menopause. Women are more likely to die of a stroke when they have a stroke. And on top of all that, at the core of my research is women are more likely than men to be diagnosed with Alzheimer&rsquo;s disease.</p>\r\n\r\n<p><strong>What happens to the female brain around the time of pregnancy?</strong></p>\r\n\r\n<p>We always think about aging as a kind of linear trajectory. But for women&rsquo;s brains it&rsquo;s more about bumps. There are three big bumps in the road. There&rsquo;s puberty, when you have an explosion of hormonal power and your brain is just really becoming an adult brain. And then there&rsquo;s pregnancy, where again we have this huge surge of hormones, which then leads to a crash after the baby is born. And then menopause later on, which is pretty much a decline in hormones.</p>\r\n\r\n<p>Brain imaging studies done in women before and after pregnancy show that some parts of the brain kind of shrink after the baby is born, and that this shrinkage is actually probably a good thing. It&rsquo;s more like an adaptive thing. The new mom is like, &ldquo;OK, I no longer have time for everybody&rsquo;s things. I need to be able to focus on this baby and I want to optimize my brain so that it&rsquo;s really sharp and really devoted to motherhood.&rdquo;</p>\r\n\r\n<p><strong>What about before and during menopause?</strong></p>\r\n\r\n<p>We have done a number of brain imaging studies to look at what really happens during the transition. What we have shown is that on average, women who are going through menopause show progressively reduced brain energy levels.</p>\r\n\r\n<p>At the same time, for some women, not all women, we find the emergence of amyloid plaques or Alzheimer&rsquo;s plaques in their brain during menopause. We don&rsquo;t find that in men of the same age.</p>\r\n\r\n<p><strong>Is declining brain energy bad? What does that mean exactly?</strong></p>\r\n\r\n<p>We know that reductions in brain energy levels are often a red flag for Alzheimer&rsquo;s disease. I&rsquo;m kind of ambivalent about defining it as good or bad because it is a transition. If it goes back up after menopause, then it&rsquo;s fine. If it keeps declining and the woman also is developing Alzheimer&rsquo;s plaques, then that&rsquo;s when I would start thinking about Alzheimer&rsquo;s prevention and a thorough medical checkup.</p>\r\n\r\n<p>We need to follow these women over time even more to really understand what happens.</p>\r\n\r\n<p><strong>Let&rsquo;s talk about Alzheimer&rsquo;s disease. Why does it affect two times as many women as men?</strong></p>\r\n\r\n<p>For a long time people would say Alzheimer&rsquo;s is a disease of old age and women live longer than men and that&rsquo;s why more women than men have Alzheimer&rsquo;s. We have challenged that belief. Alzheimer&rsquo;s starts with negative changes in the brain decades prior to clinical symptoms. What we have shown is these changes in women really overlap with menopause. Women tend to develop Alzheimer&rsquo;s earlier than men in their brains. But there could be a number of different factors as well that really lead to compounded effects.</p>\r\n\r\n<p><strong>What can they do about it?</strong></p>\r\n\r\n<p>There are many risk factors for Alzheimer&rsquo;s that are not genetic in nature but are really related to the choices we make in life.</p>\r\n\r\n<p>A healthy diet is very important for women, especially making sure that the diet contains antioxidants. There&rsquo;s been studies showing how dietary intake of antioxidants like vitamin C, vitamin E and beta-carotene are correlated with higher brain energy in women.</p>\r\n\r\n<p>Exercise has been shown to possibly protect against brain aging and Alzheimer&rsquo;s in both men and women, but it seems to be even better for women. If you&rsquo;re a middle-aged woman and you exercise, then your risk of dementia is 30% lower compared to a middle-aged woman who does not exercise.</p>\r\n\r\n<p>Another big one is stress. Studies have shown that if you have chronic stress, that really impacts brain aging.</p>\r\n\r\n<p><strong>What are some tests you recommend that women get to learn more about cognitive health and brains?</strong></p>\r\n\r\n<p>Genetic testing is a little controversial because you need to have counseling together with the testing. There are other tests, however, that are easy to do and they&rsquo;re very helpful. You need to know your metabolic activity. You need to know your lipids, for example, your cholesterol levels, your triglycerides. We need to know our insulin levels. You need to know if you&rsquo;re overweight.</p>\r\n\r\n<p>Hopefully one day brain scans will be part of a women&rsquo;s medical checkup starting in midlife, because we really need to have a baseline.</p>\r\n\r\n<p><strong>Do you recommend hormone replacement therapy around perimenopause and menopause?</strong></p>\r\n\r\n<p>For a long time people were all over hormonal therapy, then for a long time everybody was terrified of hormonal therapy, and we&rsquo;re testing it in a more thoughtful way. Many of us are testing different dosages, different formulations, and importantly, different timelines. Should we start earlier? What kind of dosage would be best? And when do we stop? I think we need more work to really fully understand the benefits of hormonal therapy and the downsides as well. But the important thing is it should be individualized.</p>\r\n\r\n<p>-By&nbsp;Sumathi Reddy</p>",
+        "description_short": "<p>New Intelligence On How The Female Brain Works</p>",
+        "lifestyle_photo": "photos/2020/09/16/women_mind.jpg",
+        "lifestyle_photo_1": "",
+        "lifestyle_photo_2": "",
+        "lifestyle_photo_3": "",
+        "lifestyle_photo_4": "",
+        "lifestyle_photo_5": "",
+        "lifestyle_photo_6": "",
+        "owner": "Ashley",
+        "is_for_lifestyle_page": true,
+        "is_workout": false,
+        "is_health": false,
+        "is_new_for_blog": true,
+        "is_travel": false,
+        "is_for_women": true,
+        "is_for_men": false,
+        "is_for_family": false,
+        "category": "Women",
+        "created_date": "2020-09-16T00:31:45Z"
+    }
+},
+{
+    "model": "lifestyle.lifestylecomment",
+    "pk": 1,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "website": "",
+        "lifestyle_id": 1,
+        "comments": "This is an amazing workout, any additional tips?",
+        "user_id": 4,
+        "create_date": "2020-09-15T13:36:25.988Z"
+    }
+},
+{
+    "model": "lifestyle.lifestylecomment",
+    "pk": 2,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "website": "",
+        "lifestyle_id": 1,
+        "comments": "This is an amazing workout, any additional tips?",
+        "user_id": 4,
+        "create_date": "2020-09-15T13:37:20.586Z"
+    }
+},
+{
+    "model": "lifestyle.lifestylecomment",
+    "pk": 3,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "website": "",
+        "lifestyle_id": 1,
+        "comments": "What is the best time to do this at?",
+        "user_id": 4,
+        "create_date": "2020-09-15T13:37:49.257Z"
     }
 },
 {
@@ -274,6 +535,11 @@
     "fields": {
         "recipe_title": "pizza",
         "description": "<p>Real Italian Pizza</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>One for the road</p>",
         "food_photo": "photos/2020/08/30/blog-1.jpg",
         "food_photo_1": "",
@@ -284,6 +550,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Sourdough,Parsley",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -308,6 +575,11 @@
     "fields": {
         "recipe_title": "platter",
         "description": "<p>Greek Platter</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Jam&oacute;n ib&eacute;rico</p>",
         "food_photo": "photos/2020/08/30/blog-2.jpg",
         "food_photo_1": "",
@@ -318,6 +590,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Sourdough,Cinnammon",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -342,7 +615,12 @@
     "fields": {
         "recipe_title": "Bread",
         "description": "<p>Sourghdough Bread</p>",
-        "description_short": "<p>My Morning Glory</p>",
+        "description1": "<p>Fill First Paragraph before image 1 here</p>",
+        "description2": "<p>Fill First Paragraph before image 2&nbsp;here</p>",
+        "description3": "<p>Fill First Paragraph before image 3&nbsp;here</p>",
+        "description4": "<p>Fill First Paragraph before image 4&nbsp;here</p>",
+        "article_title": "Get Your Sourdough Starter Kits Prepped!",
+        "description_short": "<p>The perfect breakfast for the family!</p>",
         "food_photo": "photos/2020/08/30/sourdough.jpg",
         "food_photo_1": "",
         "food_photo_2": "",
@@ -352,6 +630,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Sourdough,Cinnammon,Butter",
+        "prep_time": "10 Minutes",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -376,6 +655,11 @@
     "fields": {
         "recipe_title": "Sweets",
         "description": "<p>Cakes&#39;n&#39;stuff</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Satisfy the sweet tooth</p>",
         "food_photo": "photos/2020/08/30/image_1.jpg",
         "food_photo_1": "",
@@ -386,6 +670,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Cinnammon",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -410,6 +695,11 @@
     "fields": {
         "recipe_title": "mimosa",
         "description": "<p>Drinks n tingz&nbsp;</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Summer Drinks</p>",
         "food_photo": "photos/2020/08/30/blog-4.jpg",
         "food_photo_1": "",
@@ -420,6 +710,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Sativa",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -444,6 +735,11 @@
     "fields": {
         "recipe_title": "Paella",
         "description": "<ol>\r\n\t<li>Combine the paprika and oregano in a small bowl. Rub the spice mix all over the chicken and marinate chicken for 1 hour in the refrigerator.&nbsp;</li>\r\n\t<li>Heat oil in a paella pan over medium-high heat. Saute the chorizo until browned, remove and reserve. Add chicken skin-side down and brown on all sides, turning with tongs. Add salt and freshly ground pepper. Remove from pan and reserve.&nbsp;</li>\r\n\t<li>In the same pan, make a sofrito by sauteing the onions, garlic, and parsley. Cook for 2 or 3 minutes on a medium heat. Then, add tomatoes and cook until the mixture caramelizes a bit and the flavors meld. Fold in the rice and stir-fry to coat the grains. Pour in water and simmer for 10 minutes, gently moving the pan around so the rice cooks evenly and absorbs the liquid. Add chicken, chorizo, and saffron. Add the clams and shrimp, tucking them into the rice. The shrimp will take about 8 minutes to cook. Give the paella a good shake and let it simmer, without stirring, until the rice is al dente, for about 15 minutes. During the last 5 minutes of cooking, when the rice is filling the pan, add the lobster tails. When the paella is cooked and the rice looks fluffy and moist, turn the heat up for 40 seconds until you can smell the rice toast at the bottom, then it&#39;s perfect.&nbsp;</li>\r\n\t<li>Remove from heat and rest for 5 minutes. Garnish with peas, parsley and lemon wedges.</li>\r\n</ol>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Prueba Espa&ntilde;a</p>",
         "food_photo": "photos/2020/09/06/pexels-joshua-miranda-4305836_6HqpWQF.jpg",
         "food_photo_1": "",
@@ -454,6 +750,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Chicken Thigh,Oysters,Shrimp,Salmon,Butter,Rice,Jam\u00f3n ib\u00e9rico",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -477,8 +774,13 @@
     "pk": 7,
     "fields": {
         "recipe_title": "Pizza",
-        "description": "<p>Sometimes the simplest ingredients, combined in the simplest of ways, have the power to stop time, erase your woes, and transport you to a place of nirvana-like bliss. Such is the power of the margherita pizza. Fresh tomato sauce, chewy mozzarella cheese, a sprinkling of basil on a crispy crust? I wouldn&rsquo;t be surprised if you started levitating.</p>\r\n\r\n<p>I am not a strict purist when it comes to margherita, or margarita, pizza. I like the crust to be crispy, but still with a little chew. When tomatoes are in season and so very ripe, I&rsquo;ll use them over the traditional canned&nbsp;<a href=\"https://www.thekitchn.com/how-to-identify-real-san-marza-153939\">San Marzano tomatoes</a>&nbsp;imported from Italy. I also really like a clove of garlic and a few basil leaves in my sauce. Slices of fresh mozzarella, buffalo or otherwise, are a must.</p>\r\n\r\n<p>If you&rsquo;ve never made your own pizza sauce before, this recipe will convince you otherwise &mdash; if you can even call it a recipe. All you do is blend ripe tomatoes in a food processor or blender until they&rsquo;re good and saucy. To prevent an overly watery sauce (and the subsequently soggy pizza crust), I usually squeeze the tomatoes of excess liquid before blending, or strain the sauce afterwards to make it thicker.</p>\r\n\r\n<p>No need to cook this sauce ahead of time, either. When spread thinly on the crust, it will cook just enough in the oven to perk up its flavors.</p>\r\n\r\n<p>If it&rsquo;s too hot to contemplate turning on the oven where you live, definitely try making this pizza on the grill. I can only imagine that the smokiness and high heat of the grill will make a margherita pizza even more nirvana-inducing.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>Arrange a rack in the bottom third of the oven. Place a heavy rimmed baking sheet upside-down on the rack, and heat the oven to 450&deg;F.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Make the sauce: Place the garlic in a food processor fitted with the blade attachment and pulse until coarsely chopped, 2 to 3 pulses. Add the tomatoes and their juices, olive oil, sugar, vinegar, salt, and pepper and process until pur&eacute;ed or to desired consistency, 20 to 30 seconds; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Divide the pizza dough into two pieces. If the dough is sticky, dust with a little bit of all-purpose flour. Dust a 12-inch piece of parchment paper with cornmeal and place the dough on it. Use the heel of your hand to press the dough flat. Work from the middle out to shape it into a 10-inch round with your hands or a rolling pin. The dough will stick to the parchment; if it starts to shrink back, wait a few minutes to let it relax and continue shaping.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Brush the dough with 1 teaspoon of the olive oil, then spread 1/4 cup of the sauce into a thin layer onto dough, leaving a 1/2-inch border. Carefully remove the preheated baking sheet from the oven and use the parchment paper to slide the pizza onto the back of the baking sheet.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Bake for 4 minutes. Top the pizza with half of the mozzarella, leaving some space between the slices. Bake until the crust is golden brown and crisp and the cheese melts, 6 to 7 minutes more.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Remove the pizza from the oven. Immediately drizzle with 2 teaspoons of the olive oil. Scatter half of the basil on the pizza and sprinkle with half of the Parmesan. Cool for 2 minutes before slicing and serving. Repeat with the remaining dough and toppings.</p>\r\n\t</li>\r\n</ol>",
-        "description_short": "<p>I love pizza!</p>",
+        "description": "<p>Use This Field If you want to put a total description, it does not render on screen, this is purely if you would like to put everything in one text area prior to separating them out into the descriptions below.&nbsp;</p>",
+        "description1": "<p>Sometimes the simplest ingredients, combined in the simplest of ways, have the power to stop time, erase your woes, and transport you to a place of nirvana-like bliss. Such is the power of the margherita pizza. Fresh tomato sauce, chewy mozzarella cheese, a sprinkling of basil on a crispy crust? I wouldn&rsquo;t be surprised if you started levitating.</p>\r\n\r\n<p>I am not a strict purist when it comes to margherita, or margarita, pizza. I like the crust to be crispy, but still with a little chew. When tomatoes are in season and so very ripe, I&rsquo;ll use them over the traditional canned&nbsp;<a href=\"https://www.thekitchn.com/how-to-identify-real-san-marza-153939\">San Marzano tomatoes</a>&nbsp;imported from Italy. I also really like a clove of garlic and a few basil leaves in my sauce. Slices of fresh mozzarella, buffalo or otherwise, are a must.</p>\r\n\r\n<p>If you&rsquo;ve never made your own pizza sauce before, this recipe will convince you otherwise &mdash; if you can even call it a recipe. All you do is blend ripe tomatoes in a food processor or blender until they&rsquo;re good and saucy. To prevent an overly watery sauce (and the subsequently soggy pizza crust), I usually squeeze the tomatoes of excess liquid before blending, or strain the sauce afterwards to make it thicker.</p>\r\n\r\n<p>No need to cook this sauce ahead of time, either. When spread thinly on the crust, it will cook just enough in the oven to perk up its flavors.</p>\r\n\r\n<p>If it&rsquo;s too hot to contemplate turning on the oven where you live, definitely try making this pizza on the grill. I can only imagine that the smokiness and high heat of the grill will make a margherita pizza even more nirvana-inducing.</p>",
+        "description2": "<ol>\r\n\t<li>\r\n\t<p>Arrange a rack in the bottom third of the oven. Place a heavy rimmed baking sheet upside-down on the rack, and heat the oven to 450&deg;F.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Make the sauce: Place the garlic in a food processor fitted with the blade attachment and pulse until coarsely chopped, 2 to 3 pulses. Add the tomatoes and their juices, olive oil, sugar, vinegar, salt, and pepper and process until pur&eacute;ed or to desired consistency, 20 to 30 seconds; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Divide the pizza dough into two pieces. If the dough is sticky, dust with a little bit of all-purpose flour. Dust a 12-inch piece of parchment paper with cornmeal and place the dough on it. Use the heel of your hand to press the dough flat. Work from the middle out to shape it into a 10-inch round with your hands or a rolling pin. The dough will stick to the parchment; if it starts to shrink back, wait a few minutes to let it relax and continue shaping.</p>\r\n\t</li>\r\n</ol>",
+        "description3": "<ol start=\"4\">\r\n\t<li>\r\n\t<p>Brush the dough with 1 teaspoon of the olive oil, then spread 1/4 cup of the sauce into a thin layer onto dough, leaving a 1/2-inch border. Carefully remove the preheated baking sheet from the oven and use the parchment paper to slide the pizza onto the back of the baking sheet.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Bake for 4 minutes. Top the pizza with half of the mozzarella, leaving some space between the slices. Bake until the crust is golden brown and crisp and the cheese melts, 6 to 7 minutes more.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Remove the pizza from the oven. Immediately drizzle with 2 teaspoons of the olive oil. Scatter half of the basil on the pizza and sprinkle with half of the Parmesan. Cool for 2 minutes before slicing and serving. Repeat with the remaining dough and toppings.</p>\r\n\t</li>\r\n</ol>",
+        "description4": "",
+        "article_title": "Best Home Made Pizza",
+        "description_short": "<p>Grab A Slice Of This Home Made Pizza</p>",
         "food_photo": "photos/2020/09/06/pexels-vincent-rivaud-2147491.jpg",
         "food_photo_1": "",
         "food_photo_2": "",
@@ -488,6 +790,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Sourdough,Basil,Mozzarella,Red Pepper Flakes,Provolone,Salt,Butter,Jam\u00f3n ib\u00e9rico",
+        "prep_time": "30 Minutes",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -512,6 +815,11 @@
     "fields": {
         "recipe_title": "Butter Tarts",
         "description": "<p><em>Butter Tarts are the Ultimate Canadian treat. A sweet, gooey filling, wrapped with a tender, flaky crust. Perfect for the holidays, or dessert anytime.</em></p>\r\n\r\n<p>When I was growing up,&nbsp;<strong>Butter Tarts</strong>&nbsp;were always a part of Christmas baking. My mom or grandma would make them every year when the holidays rolled around, and they were always on of the family&rsquo;s favorite items, and always one of the first to disappear off the dessert tray.</p>\r\n\r\n<p>Now that my husband and I live in Wisconsin, we still love and make them, mostly at Christmas time, sometimes to celebrate a Canadian holiday, like Canada day.</p>\r\n\r\n<h2>What are Butter Tarts anyway?</h2>\r\n\r\n<p>If you&rsquo;re Canadian, you definitely know what Butter Tarts are and there&rsquo;s a good chance you&rsquo;ve eaten them at some point. If you&rsquo;re not Canadian, I&rsquo;m guessing you don&rsquo;t know what they are.</p>\r\n\r\n<p>According to Google, butter tarts are &rdquo; considered one of Canada&rsquo;s quintessential treats &ldquo;. They are tarts (think mini pies) filled with a sweet, buttery, gooey filling, and often raisins (but Canadians are very much divided on this &ndash; see below).</p>\r\n\r\n<p>The closest thing in American cuisine to a butter tart that I can think of is pecan pie. But with a higher filling to pecan ratio. And no pecans.</p>\r\n\r\n<h2>How do you make butter tarts?</h2>\r\n\r\n<p>Butter tarts for me growing up always started out with frozen, store bought tart shells. In fact, there is nothing I hate making more than pastry dough, so I still prefer to use them. But unfortunately, they are not available in Wisconsin, so unless I can have a family member bring them to me, I have to make the tart shells myself.</p>\r\n\r\n<p>I have included a recipe for pastry dough that has worked well for me, and certainly results in delicious butter tarts, but if you&rsquo;re in Canada, feel free to use store bought tart shells. If you&rsquo;re from elsewhere, you can use your own favorite pastry dough recipe, or use store bought pie dough (the kind that comes rolled, not the kind that&rsquo;s already in a pie dish).</p>\r\n\r\n<p>The filling is the easy part. The ingredients are pretty basic. You probably already have them all in &nbsp;your pantry right now. Butter (of course), brown sugar, corn syrup, salt, egg and vanilla. They all get mixed together to make the filling.</p>\r\n\r\n<h3>What about the raisins?</h3>\r\n\r\n<p>Ah the raisins. I know not everyone likes raisins in baked goods. I hate don&rsquo;t like them myself! The whole time I was growing up, my mom and grandma knew to make a few butter tarts for me without the raisins. But this recipe has a secret that makes it all okay.</p>\r\n\r\n<p>Soak the raisins in water before you add them to the tarts. It makes them plump and juicy and oh so tasty. I made a whole batch without a single plain tart. I like them that much. Definitely DON&rsquo;T skip the soaking step.</p>\r\n\r\n<p>Now this is important: fill the tart shells only so that the raisins are just barely covered. Any more than that and you won&rsquo;t have enough to make 18 tarts and the filling will bubble up and overflow in the oven. Then you will be stuck with tarts that are superglued to the pan.</p>\r\n\r\n<p>After your tarts cool, you&rsquo;ll be left with flaky and tender crust filled with sticky, gooey filling and plump juicy raisins. They&rsquo;re the perfect addition to your Christmas baking. Otherwise, pack them up and bring them on a Canada Day picnic.</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>My Family Secret</p>",
         "food_photo": "photos/2020/09/07/pexels-daria-shevtsova-1546587.jpg",
         "food_photo_1": "",
@@ -522,6 +830,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Pecans,Pastry Flour,Butter,Raisins",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": true,
@@ -546,6 +855,11 @@
     "fields": {
         "recipe_title": "Apple Pie",
         "description": "<ul>\r\n\t<li>Step 1\r\n\t<p>Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.</p>\r\n\t</li>\r\n\t<li>Step 2\r\n\t<p>Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.</p>\r\n\t</li>\r\n\t<li>Step 3\r\n\t<p>Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft.</p>\r\n\t</li>\r\n</ul>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Winter&#39;s Apple Pie</p>",
         "food_photo": "photos/2020/09/07/pexels-josh-kobayashi-4083581.jpg",
         "food_photo_1": "",
@@ -556,6 +870,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Apples,Milk,All Purpose Flour,Pastry Flour",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": true,
@@ -580,6 +895,11 @@
     "fields": {
         "recipe_title": "Chocolate Croissants",
         "description": "<ul>\r\n\t<li>Step 1\r\n\t<p>Place warm water in the bowl of a stand mixer. Sprinkle with yeast. Let yeast dissolve for 10 minutes. Add sugar and bread flour. Sprinkle with salt; add 3 tablespoons butter. Attach the bowl to the stand mixer. Mix dough with the dough hook just until butter is completely kneaded in and the dough forms a ball and pulls away cleanly from the sides of the bowl, 3 or 4 minutes.</p>\r\n\t</li>\r\n\t<li>Step 2\r\n\t<p>Transfer dough to a work surface and form into a semi-smooth ball. Place dough back in the mixer bowl; cover. Let rise in a warm spot until doubled, about 2 hours.</p>\r\n\t</li>\r\n\t<li>Step 3\r\n\t<p>Transfer dough to a lightly floured work surface. Push and press dough to deflate it, and form it into a rectangle. Fold into thirds by lifting one end over the middle third, and folding the other side onto the middle. Wrap in plastic wrap. Place on a rimmed baking sheet lined with a silicone mat. Refrigerate until chilled through, about 1 hour.</p>\r\n\t</li>\r\n\t<li>Step 4\r\n\t<p>Cut 1 stick of butter in 1/2 lengthwise and place halves slightly apart from each other on a length of parchment paper long enough to fold over the butter. Fold the parchment paper over the butter. Press butter down. Roll out with a rolling pin to a square about 8x8 inches. Refrigerate until a little chilled and just barely flexible, 10 or 15 minutes.</p>\r\n\t</li>\r\n\t<li>Step 5\r\n\t<p>Roll dough out into a rectangle slightly wider than the butter slab and just over twice as long. Place butter on one half of the dough leaving about 1 inch margin from the edge of the dough. Fold the other half of the dough over the butter. Dust work surface and dough with flour as needed.</p>\r\n\t</li>\r\n\t<li>Step 6\r\n\t<p>Press rolling pin down on dough to create ridges. Then roll out the ridges. Repeat this process. Keep pressing and rolling until dough is about the same size rectangle as you had before you folded it in half, dusting with just a bit of flour as necessary.</p>\r\n\t</li>\r\n\t<li>Step 7\r\n\t<p>Starting from the short side, fold one-third of dough over middle third. Then fold the other end over to form a small rectangle. Flatten out just slightly with rolling pin. Transfer to the silicone-lined baking sheet; cover with plastic wrap. Refrigerate until chilled, about 30 minutes.</p>\r\n\t</li>\r\n\t<li>Step 8\r\n\t<p>Transfer dough back to work surface and repeat pressing and rolling technique until dough is the size of the previous larger rectangle. Fold into thirds again, starting from the short side. Press and roll slightly. Transfer back to lined baking sheet. Cover and refrigerate about 15 minutes.</p>\r\n\t</li>\r\n\t<li>Step 9\r\n\t<p>Roll back out to a large rectangle. This time, fold dough in half. Then press and roll out into a 1/2-inch thick rectangle, using as little flour as needed to keep dough from sticking.</p>\r\n\t</li>\r\n\t<li>Step 10\r\n\t<p>Dust dough with flour and roll out to a rectangle about 1/8-inch thick. Cut dough lengthwise into 6 pieces using a pastry wheel.</p>\r\n\t</li>\r\n\t<li>Step 11\r\n\t<p>Pull and stretch out 1 of the dough pieces until ends are slightly tapered. Line 1 to 2 tablespoon of chocolate 1 inch parallel to the bottom edge and an equal amount of chocolate 1 more inch ahead. Roll dough up over the chocolate toward the top short edge to form a croissant with the seam at the bottom. Repeat with the remaining 5 dough pieces.</p>\r\n\t</li>\r\n\t<li>Step 12\r\n\t<p>Place shaped croissants on baking sheets lined with silicone mats. Whisk together egg and 1 tablespoon water to make the egg wash. Brush croissants with a large portion of the egg wash. Place in a warm area to allow them to rise, 60 to 90 minutes.</p>\r\n\t</li>\r\n\t<li>Step 13\r\n\t<p>Preheat oven to 400 degrees F (200 degrees C). Brush croissants gently but thoroughly again with egg wash. Sprinkle sea salt on top.</p>\r\n\t</li>\r\n\t<li>Step 14\r\n\t<p>Bake in preheated oven until beautifully browned, about 25 minutes. Transfer to a cooling rack. Cool to room temperature, about 1 hour.</p>\r\n\t</li>\r\n</ul>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Warm Chocolate Croissants</p>",
         "food_photo": "photos/2020/09/07/pexels-lisa-fotios-1393399.jpg",
         "food_photo_1": "",
@@ -590,6 +910,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Chocolate Chips,Eggs,All Purpose Flour,Butter,Warm Water,Dry Yeast,Sea Salt",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": true,
@@ -614,6 +935,11 @@
     "fields": {
         "recipe_title": "Burger Cake",
         "description": "<ul>\r\n\t<li>\r\n\t<p>1</p>\r\n\r\n\t<p>Heat oven to 350&deg;F. Place mini paper baking cup in each of 24 mini muffin cups. In medium bowl, mix flour, baking powder and salt; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>2</p>\r\n\r\n\t<p>In large bowl, beat butter with electric mixer on medium speed 30 seconds. Gradually add sugar, about 1/4 cup at a time, beating well after each addition. Beat 2 minutes longer. Add 3 eggs, one at a time, beating well after each addition. Beat in vanilla. On low speed, alternately add flour mixture, about a third at a time, and milk, about half at a time, beating just until blended.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>3</p>\r\n\r\n\t<p>Fill each cup with about 1 tablespoon plus 1 teaspoon batter or until about two-thirds full. (Cover and refrigerate remaining batter until ready to bake; cool pan 15 minutes before reusing.) Bake 17 to 20 minutes or until golden brown and toothpick inserted in center comes out clean. Cool 5 minutes; remove cupcakes from pans to cooling racks. Cool completely, about 15 minutes. Repeat with remaining batter to make an additional 48 mini cupcakes.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>4</p>\r\n\r\n\t<p>Leave oven temperature at 350&deg;F. Grease 15x10x1-inch pan with shortening or cooking spray. In large bowl, stir brownie mix, 1/4 cup water, the oil and 2 eggs with spoon until blended. Pour into pan. Bake 22 to 26 minutes or until toothpick inserted 2 inches from side of pan comes out almost clean. Cool 20 minutes. With 1 1/2-inch round cutter, cut 64 brownie rounds for &ldquo;burgers.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>5</p>\r\n\r\n\t<p>In medium bowl, toss coconut, green food color and 4 to 6 drops water with fork until coconut reaches desired color; set aside.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>6</p>\r\n\r\n\t<p>Remove paper baking cups from 64 cupcakes (reserve remaining cupcakes for another use). Cut each cupcake horizontally in half to make tops and bottoms of &ldquo;buns.&rdquo; Place brownie rounds (burgers) on bottom halves of cupcakes (buns), using frosting to secure.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>7</p>\r\n\r\n\t<p>To make &ldquo;cheese slices,&rdquo; on large microwavable plate, microwave about 8 chewy fruit candies at a time on High 5 to 10 seconds to soften. Use bottom of measuring cup to flatten until each is about 1 3/4 inches in diameter. Secure to &ldquo;burgers&rdquo; with frosting. Repeat to make additional &ldquo;cheese slices.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>8</p>\r\n\r\n\t<p>To make &ldquo;ketchup,&rdquo; cut chewy fruit snack with kitchen scissors into about 1 3/4-inch irregular-edged circles. Secure to &ldquo;cheese&rdquo; with frosting. Spread dab of frosting on &ldquo;ketchup&rdquo;; sprinkle each slider with scant 2 teaspoons tinted coconut for &ldquo;shredded lettuce.&rdquo;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>9</p>\r\n\r\n\t<p>In small bowl, mix honey and enough of the 1 to 2 teaspoons water until thin consistency. Brush honey mixture lightly over &ldquo;bun tops&quot;; sprinkle each with sesame seed. Spread dab of frosting on cut sides of &ldquo;bun tops&quot;; secure to coconut, frosting side down.</p>\r\n\t</li>\r\n</ul>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>Burgers and Cake have never been better.</p>",
         "food_photo": "photos/2020/09/07/burger_cake.jpg",
         "food_photo_1": "",
@@ -624,6 +950,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Baking Powder,Baking Soda,Vanilla Extract,Eggs,Milk,Sugar,Cake Flour,Warm Water",
+        "prep_time": "",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": true,
@@ -647,7 +974,12 @@
     "pk": 12,
     "fields": {
         "recipe_title": "Taco Cake",
-        "description": "<p>Everyone loves a good taco, so I figured most people would appreciate a taco cake!!</p>\r\n\r\n<p>While the shape of the cake may make it seem complicated to make, I promise it&rsquo;s easier than you&rsquo;d think!</p>\r\n\r\n<h2>How On Earth Do You Shape The Cake To Look Like A Taco?!</h2>\r\n\r\n<p>This cake cake is made with two round cake layers (one slightly smaller than the other).</p>\r\n\r\n<p>Each layer is cut in half. Then three of these halved cake layers are sticked upright.</p>\r\n\r\n<p>This means you&rsquo;ll end up with an extra half a cake layer. I ended up just eating mine with some leftover buttercream&hellip;but you could also make cake pops with it.</p>\r\n\r\n<p>This taco cake is made with my favorite&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla layer cake</a>, which has great structure and works wonderfully for shaped cakes like this.</p>\r\n\r\n<p>The cake is decorated with my&nbsp;<a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">American buttercream frosting</a>. The frosting almost acts like a glue. It keeps the layers of this cake in place, and is also used to create most of the &ldquo;topping&rdquo; decorations.&nbsp;</p>\r\n\r\n<p>I used a&nbsp;<a href=\"https://amzn.to/2s6DnSP\">wilton 789 frosting tip</a>&nbsp;to make the frosting process easier.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Customize Your Taco Cake</h3>\r\n\r\n<p>That&rsquo;s one of my favorite parts of this taco cake, you can decorate it to look just like your favorite tacos!</p>\r\n\r\n<p>Love beef picadillo (guilty as charged!)? Use some chocolate buttercream and crushed Oreos to make the &ldquo;beef!&rdquo;</p>\r\n\r\n<p>Or if you&rsquo;re a huge guacamole fan, color some of the buttercream an earthy shade of green, and top your cake with a generous dollop!</p>\r\n\r\n<p>Whether you&rsquo;re a taco enthusiast, or just want to celebrate Cinco de Mayo, this cake is perfect for just about any occasion.</p>\r\n\r\n<p>I&rsquo;d even venture out and say this could be a summer-themed cake! Maybe that&rsquo;s stepping too far, but tacos make me think of warm summer nights.</p>\r\n\r\n<h2>Making This Cake Ahead Of Time</h2>\r\n\r\n<p>A lot of you (and myself, for that matter) like to make your cakes ahead of time! This cake can totally be made in advance.</p>\r\n\r\n<p>That way if you need this cake on a weekday, you don&rsquo;t have to stay up late slaving away the night before. It keeps incredibly well, and will taste just as delicious.</p>\r\n\r\n<p>With that in mind, I do have a few notes around making this cake ahead of time:</p>\r\n\r\n<ul>\r\n\t<li>You can make the&nbsp;<strong>cake layers in advance</strong>! They can be made and frozen several days (or weeks) in advance if they&rsquo;re&nbsp;<a href=\"https://chelsweets.com/2018/10/28/how-to-make-cake-layers-in-advance/\">stored properly</a>.</li>\r\n\t<li>The&nbsp;<strong><a href=\"https://chelsweets.com/2019/04/06/how-long-does-buttercream-last/\">buttercream can also be made ahead of time</a></strong>! It keeps in the fridge for up to a month.&nbsp; Just be sure to store it in an airtight container. Give it a REALLY good stir once it thaws, to get rid of any air bubbles that may have formed while it thawed.</li>\r\n\t<li>Once the&nbsp;<strong>cake is assembled and frosted</strong>, it can be stored in the fridge or freezer for<strong>&nbsp;several days!</strong>&nbsp;The frosting will help lock all the moisture in, and keep the cake layers moist.</li>\r\n\t<li>If you choose to put it in the freezer, transfer the cake to the fridge the day before you plan to cut into it. This will minimize the temperature shock and reduce the risk of condensation.&nbsp;</li>\r\n\t<li>The cake will need a couple hours to come to room temperature. Be sure to take it out of the fridge and let it sit for a bit before you plan to cut into it.</li>\r\n</ul>\r\n\r\n<h3>What About The Chocolate Cake Layer In The Center Of Your Cake!?</h3>\r\n\r\n<p>In the cake shown below, I actually ended up using a chocolate cake layer for the center of the cake. I happened to have one on hand from another baking project!</p>\r\n\r\n<p>In my recipe below, I instruct you to make all&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla cake layers</a>. This just makes the recipe a bit simpler. Otherwise, you&rsquo;d have to make two cake batters, and it would take a lot more work!</p>\r\n\r\n<p>If you&rsquo;re totally set on having a chocolate cake layer in the center of your cake, you can put half of your cake batter in a separate bowl. Mix in 1/3 cup baking cocoa, an extra Tbsp of buttermilk, and an extra Tbsp of egg whites. Pour this batter into the six inch prepared cake pan, and bake as instructed below.</p>",
+        "description": "<p>Everyone loves a good taco, so I figured most people would appreciate a taco cake!!</p>\r\n\r\n<p>While the shape of the cake may make it seem complicated to make, I promise it&rsquo;s easier than you&rsquo;d think!</p>\r\n\r\n<h2>How On Earth Do You Shape The Cake To Look Like A Taco?!</h2>\r\n\r\n<p>my favorite&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla layer cake</a>, which has great structure and works wonderfully for shaped cakes like this.</p>\r\n\r\n<p>The cake is decorated with my&nbsp;<a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">American b</a></p>\r\n\r\n<p>This cake cake is made with two round cake layers (one slightly smaller than the other).</p>\r\n\r\n<p>Each layer is cut in half. Then three of these halved cake layers are sticked upright.</p>\r\n\r\n<p>This means you&rsquo;ll end up with an extra half a cake layer. I ended up just eating mine with some leftover buttercream&hellip;but you could also make cake pops with it.</p>\r\n\r\n<p>This taco cake is made with</p>\r\n\r\n<p><a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">uttercream frosting</a>. The frosting almost acts like a glue. It keeps the layers of this cake in place, and is also used to create most of the &ldquo;topping&rdquo; decorations.&nbsp;</p>\r\n\r\n<p>I used a&nbsp;<a href=\"https://amzn.to/2s6DnSP\">wilton 789 frosting tip</a>&nbsp;to make the frosting process easier.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Customize Your Taco Cake</h3>\r\n\r\n<p>That&rsquo;s one of my favorite parts of this taco cake, you can decorate it to look just like your favorite tacos!</p>\r\n\r\n<p>Love beef picadillo (guilty as charged!)? Use some chocolate buttercream and crushed Oreos to make the &ldquo;beef!&rdquo;</p>\r\n\r\n<p>Or if you&rsquo;re a huge guacamole fan, color some of the buttercream an earthy shade of green, and top your cake with a generous dollop!</p>\r\n\r\n<p>Whether you&rsquo;re a taco enthusiast, or just want to celebrate Cinco de Mayo, this cake is perfect for just about any occasion.</p>\r\n\r\n<p>I&rsquo;d even venture out and say this could be a summer-themed cake! Maybe that&rsquo;s stepping too far, but tacos make me think of warm summer nights.</p>\r\n\r\n<h2>Making This Cake Ahead Of Time</h2>\r\n\r\n<p>A lot of you (and myself, for that matter) like to make your cakes ahead of time! This cake can totally be made in advance.</p>\r\n\r\n<p>That way if you need this cake on a weekday, you don&rsquo;t have to stay up late slaving away the night before. It keeps incredibly well, and will taste just as delicious.</p>\r\n\r\n<p>With that in mind, I do have a few notes around making this cake ahead of time:</p>\r\n\r\n<ul>\r\n\t<li>You can make the&nbsp;<strong>cake layers in advance</strong>! They can be made and frozen several days (or weeks) in advance if they&rsquo;re&nbsp;<a href=\"https://chelsweets.com/2018/10/28/how-to-make-cake-layers-in-advance/\">stored properly</a>.</li>\r\n\t<li>The&nbsp;<strong><a href=\"https://chelsweets.com/2019/04/06/how-long-does-buttercream-last/\">buttercream can also be made ahead of time</a></strong>! It keeps in the fridge for up to a month.&nbsp; Just be sure to store it in an airtight container. Give it a REALLY good stir once it thaws, to get rid of any air bubbles that may have formed while it thawed.</li>\r\n\t<li>Once the&nbsp;<strong>cake is assembled and frosted</strong>, it can be stored in the fridge or freezer for<strong>&nbsp;several days!</strong>&nbsp;The frosting will help lock all the moisture in, and keep the cake layers moist.</li>\r\n\t<li>If you choose to put it in the freezer, transfer the cake to the fridge the day before you plan to cut into it. This will minimize the temperature shock and reduce the risk of condensation.&nbsp;</li>\r\n\t<li>The cake will need a couple hours to come to room temperature. Be sure to take it out of the fridge and let it sit for a bit before you plan to cut into it.</li>\r\n</ul>\r\n\r\n<h3>What About The Chocolate Cake Layer In The Center Of Your Cake!?</h3>\r\n\r\n<p>In the cake shown below, I actually ended up using a chocolate cake layer for the center of the cake. I happened to have one on hand from another baking project!</p>\r\n\r\n<p>In my recipe below, I instruct you to make all&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla cake layers</a>. This just makes the recipe a bit simpler. Otherwise, you&rsquo;d have to make two cake batters, and it would take a lot more work!</p>\r\n\r\n<p>If you&rsquo;re totally set on having a chocolate cake layer in the center of your cake, you can put half of your cake batter in a separate bowl. Mix in 1/3 cup baking cocoa, an extra Tbsp of buttermilk, and an extra Tbsp of egg whites. Pour this batter into the six inch prepared cake pan, and bake as instructed below.</p>",
+        "description1": "<p>Everyone loves a good taco, so I figured most people would appreciate a taco cake!!</p>\r\n\r\n<p>While the shape of the cake may make it seem complicated to make, I promise it&rsquo;s easier than you&rsquo;d think!</p>\r\n\r\n<p>My favorite&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla layer cake</a>, which has great structure and works wonderfully for shaped cakes like this.</p>\r\n\r\n<p>The cake is decorated with my&nbsp;<a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">American b</a></p>\r\n\r\n<p>This cake cake is made with two round cake layers (one slightly smaller than the other).</p>\r\n\r\n<p>Each layer is cut in half. Then three of these halved cake layers are sticked upright.</p>\r\n\r\n<p>This means you&rsquo;ll end up with an extra half a cake layer. I ended up just eating mine with some leftover buttercream&hellip;but you could also make cake pops with it.</p>\r\n\r\n<p>This taco cake is made with</p>\r\n\r\n<p><a href=\"https://chelsweets.com/2016/11/01/the-best-american-buttercream-recipe/\">uttercream frosting</a>. The frosting almost acts like a glue. It keeps the layers of this cake in place, and is also used to create most of the &ldquo;topping&rdquo; decorations.&nbsp;</p>\r\n\r\n<p>I used a&nbsp;<a href=\"https://amzn.to/2s6DnSP\">wilton 789 frosting tip</a>&nbsp;to make the frosting process easier.</p>",
+        "description2": "<p>That&rsquo;s one of my favorite parts of this taco cake, you can decorate it to look just like your favorite tacos!</p>\r\n\r\n<p>Love beef picadillo (guilty as charged!)? Use some chocolate buttercream and crushed Oreos to make the &ldquo;beef!&rdquo;</p>\r\n\r\n<p>Or if you&rsquo;re a huge guacamole fan, color some of the buttercream an earthy shade of green, and top your cake with a generous dollop!</p>\r\n\r\n<p>Whether you&rsquo;re a taco enthusiast, or just want to celebrate Cinco de Mayo, this cake is perfect for just about any occasion.</p>\r\n\r\n<p>I&rsquo;d even venture out and say this could be a summer-themed cake! Maybe that&rsquo;s stepping too far, but tacos make me think of warm summer nights.</p>",
+        "description3": "<p>A lot of you (and myself, for that matter) like to make your cakes ahead of time! This cake can totally be made in advance.</p>\r\n\r\n<p>That way if you need this cake on a weekday, you don&rsquo;t have to stay up late slaving away the night before. It keeps incredibly well, and will taste just as delicious.</p>\r\n\r\n<p>With that in mind, I do have a few notes around making this cake ahead of time:</p>\r\n\r\n<ul>\r\n\t<li>You can make the&nbsp;<strong>cake layers in advance</strong>! They can be made and frozen several days (or weeks) in advance if they&rsquo;re&nbsp;<a href=\"https://chelsweets.com/2018/10/28/how-to-make-cake-layers-in-advance/\">stored properly</a>.</li>\r\n\t<li>The&nbsp;<strong><a href=\"https://chelsweets.com/2019/04/06/how-long-does-buttercream-last/\">buttercream can also be made ahead of time</a></strong>! It keeps in the fridge for up to a month.&nbsp; Just be sure to store it in an airtight container. Give it a REALLY good stir once it thaws, to get rid of any air bubbles that may have formed while it thawed.</li>\r\n\t<li>Once the&nbsp;<strong>cake is assembled and frosted</strong>, it can be stored in the fridge or freezer for<strong>&nbsp;several days!</strong>&nbsp;The frosting will help lock all the moisture in, and keep the cake layers moist.</li>\r\n\t<li>If you choose to put it in the freezer, transfer the cake to the fridge the day before you plan to cut into it. This will minimize the temperature shock and reduce the risk of condensation.&nbsp;</li>\r\n\t<li>The cake will need a couple hours to come to room temperature. Be sure to take it out of the fridge and let it sit for a bit before you plan to cut into it.</li>\r\n</ul>",
+        "description4": "<p>In the cake shown below, I actually ended up using a chocolate cake layer for the center of the cake. I happened to have one on hand from another baking project!</p>\r\n\r\n<p>In my recipe below, I instruct you to make all&nbsp;<a href=\"https://chelsweets.com/2016/09/05/best-vanilla-layer-cake-recipe/\">vanilla cake layers</a>. This just makes the recipe a bit simpler. Otherwise, you&rsquo;d have to make two cake batters, and it would take a lot more work!</p>\r\n\r\n<p>If you&rsquo;re totally set on having a chocolate cake layer in the center of your cake, you can put half of your cake batter in a separate bowl. Mix in 1/3 cup baking cocoa, an extra Tbsp of buttermilk, and an extra Tbsp of egg whites. Pour this batter into the six inch prepared cake pan, and bake as instructed below.</p>",
+        "article_title": "How On Earth Do You Shape The Cake To Look Like A Taco?!",
         "description_short": "<p>Everyone loves a good taco, why not a taco cake!!</p>",
         "food_photo": "photos/2020/09/07/tacos.jpg",
         "food_photo_1": "",
@@ -658,6 +990,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Baking Powder,Baking Soda,Vanilla Extract,Eggs,Icing Sugar,Cake Flour,Dry Yeast",
+        "prep_time": "60 Minutes",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": true,
@@ -682,6 +1015,11 @@
     "fields": {
         "recipe_title": "Burritos",
         "description": "<p>An everyday Beef Burrito recipe,&nbsp;stuffed with a simple,&nbsp;<strong>super tasty seasoned beef</strong>, rice and other fillings of choice. These Burritos are a&nbsp;<strong>brilliant freezer standby</strong>&nbsp;because&nbsp;they&nbsp;are just as good made fresh or frozen then reheated. The burrito beef filling is especially good &ndash; made with a homemade Mexican seasoning that&rsquo;s way better than a packet of Old El Paso!</p>\r\n\r\n<p>Having a stash of burritos in the freezer makes me feel smug. Along with homemade&nbsp;<a href=\"https://recipetineats.com/homemade-frozen-pizzas/\">Frozen Pizzas</a>, these are one of the all time ultimate freezer meals.</p>\r\n\r\n<p>Except burritos have the added bonus that you don&rsquo;t even need to dirty a tray to reheat them, or a plate to eat them.&nbsp;Food you can eat with your hands always rates highly in my world!!!</p>\r\n\r\n<p>I call this Beef Burrito recipe an &ldquo;everyday beef burrito&rdquo; because beef filling aside, it&rsquo;s a terrific one for adding in what you have and what you want. The key part of this recipe is the Beef Burrito Filling &ndash; highly seasoned with a homemade spice mix that tastes like Old El Paso &ndash; except it&rsquo;s preservative free!</p>\r\n\r\n<p>The Beef Filling is the main flavour component in this burrito recipe. It&rsquo;s highly seasoned and juicy so it provides the&nbsp;&ldquo;wetness&rdquo; in the burrito as well as the flavour mixing through the other ingredients when you roll it up.</p>\r\n\r\n<p>So other than the Beef Burrito Filling, there&rsquo;s endless possibilities for what to put in the burrito! For this recipe, I&rsquo;ve chosen a&nbsp;<strong>combination of ingredients that freeze well:</strong></p>\r\n\r\n<p>I like to use foil to roll up the burritos as it holds it together and then I can reheat it in the foil in the oven.</p>\r\n\r\n<p>To freeze, I&nbsp;<strong>wrap in cling wrap</strong>&nbsp;(for extra air tight assurance) then put it in a ziplock bag or airtight container.</p>\r\n\r\n<p>To reheat the burrito, I simply defrost in the fridge overnight then pop it in the ovenin the foil &nbsp;to make it crisp and heat through. If I forgot to defrost overnight, then I take it out of the foil, microwave on low to defrost, then wrap it up in the foil again and pop it in the oven to crisp up.</p>\r\n\r\n<p>I totally forgot to take a photo of what to dip burritos in. They do need something because you can&rsquo;t make the filling too wet, otherwise it makes the tortilla soggy.</p>\r\n\r\n<p>For simplicity, my go-to is&nbsp;<strong>sour cream or yoghurt</strong>, sometimes with a dollop of some sort of&nbsp;<strong>chilli sauce</strong>. If I feel like making more of an effort or I&rsquo;m doing these for a group (I like doing burritos for camping), then I&rsquo;ll make&nbsp;<a href=\"https://recipetineats.com/salsa-super-easy-restaurant-style/\" rel=\"noopener noreferrer\" target=\"_blank\">Restaurant Style Salsa</a>&nbsp;(because it&rsquo;s smooth, it&rsquo;s good for dipping) or this&nbsp;<a href=\"https://recipetineats.com/avocado-sauce/\">Avocado Dipping Sauce</a>.</p>\r\n\r\n<p>&nbsp;</p>",
+        "description1": "",
+        "description2": "",
+        "description3": "",
+        "description4": "",
+        "article_title": "",
         "description_short": "<p>An everyday Beef Burrito recipe</p>",
         "food_photo": "photos/2020/09/07/bg_1.jpg",
         "food_photo_1": "",
@@ -692,6 +1030,7 @@
         "food_photo_6": "",
         "owner": "Ashley",
         "igredients": "Cheese,Tequila,Minced Beef,Cream Cheese,Red Pepper Flakes,Garlic,Thyme,Onion,Tomatoes,Jalape\u00f1o,Tortilla,Salt,Whole Wheat Rice",
+        "prep_time": "30 Minutes",
         "is_salad": false,
         "is_cake": false,
         "is_dessert": false,
@@ -732,6 +1071,57 @@
         "food_photo": "photos/2020/08/30/sourdough.jpg",
         "food_description": "",
         "create_date": "2020-09-06T17:28:53.046Z"
+    }
+},
+{
+    "model": "foods.dashboard",
+    "pk": 15,
+    "fields": {
+        "food_title": "",
+        "user_id": 4,
+        "food_id": 10,
+        "food_photo": "photos/2020/09/07/pexels-lisa-fotios-1393399.jpg",
+        "food_description": "",
+        "create_date": "2020-09-15T13:47:32.818Z"
+    }
+},
+{
+    "model": "foods.comment",
+    "pk": 1,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "website": "",
+        "food_id": 11,
+        "comments": "I really love your taco cakes, What are your inspirations to make these cakes and would you consider hosting a live session teaching how to make such cakes. ",
+        "user_id": 1,
+        "create_date": "2020-09-14T01:08:28.294Z"
+    }
+},
+{
+    "model": "foods.comment",
+    "pk": 2,
+    "fields": {
+        "first_name": "Francois Jack",
+        "email": "francoiskieran89@gmail.com",
+        "website": "",
+        "food_id": 7,
+        "comments": "How different would the process be if I wanted to make this in a gluten free option? Love the recipe",
+        "user_id": 1,
+        "create_date": "2020-09-15T01:26:25.408Z"
+    }
+},
+{
+    "model": "foods.comment",
+    "pk": 3,
+    "fields": {
+        "first_name": "Jay",
+        "email": "jay@gmail.com",
+        "website": "",
+        "food_id": 10,
+        "comments": "Best breakfast I have had in a long time.",
+        "user_id": 4,
+        "create_date": "2020-09-15T13:47:26.619Z"
     }
 },
 {
@@ -796,7 +1186,7 @@
         ],
         "provider": "google",
         "uid": "100072300308472995551",
-        "last_login": "2020-08-31T02:42:32.264Z",
+        "last_login": "2020-09-16T18:02:00.253Z",
         "date_joined": "2020-08-31T02:38:39.854Z",
         "extra_data": "{\"id\": \"100072300308472995551\", \"name\": \"Francois Jack\", \"given_name\": \"Francois\", \"family_name\": \"Jack\", \"picture\": \"https://lh6.googleusercontent.com/-9qdhf8aRI1g/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckQIBIgeZ9_SQBH_AErlM96FIYAkg/photo.jpg\", \"locale\": \"en\"}"
     }
@@ -818,9 +1208,9 @@
     "fields": {
         "app": 2,
         "account": 2,
-        "token": "ya29.a0AfH6SMBYAtV2o22vHKdWLT1DqAGL9WO6KxKPAEKMJDJ0azDwt5x0Vgfq4smOxpINrozHnd31CfaM_qnvovvTPUz0XNKFmRRtKQ5_hAd3Sh4Ts1j4XdTAGTfUX1XKIcbkAaDKWBCVcgepVeZRFv736njs0zLF7sXy06k",
+        "token": "ya29.a0AfH6SMA4iURKtmDo-pwqxAqw0EPkiQ9Wkf7J6gpViwhEBXmnLeKIEQszTJYyBpN33vjDcaNF_Z8JPHVM8MzrkJa8OB1uMAIhKpfIbKGeM0-kfPEibocZi7MHZ8e-hTzyKnAtVQuCgGtD9iBZRVg-vdwDH32JScYcg8w",
         "token_secret": "",
-        "expires_at": "2020-08-31T03:42:31.068Z"
+        "expires_at": "2020-09-16T19:01:59.051Z"
     }
 },
 {
@@ -2171,6 +2561,474 @@
         "object_repr": "pizza",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description short\", \"Igredients\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-09-14T04:04:04.343Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "13",
+        "object_repr": "Burritos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prep time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-09-14T04:04:14.375Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "12",
+        "object_repr": "Taco Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prep time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-09-14T04:53:52.160Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "12",
+        "object_repr": "Taco Cake",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Description1\", \"Description2\", \"Description3\", \"Description4\", \"Article title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-09-15T03:38:05.609Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-09-15T03:48:27.497Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-09-15T03:54:49.688Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-09-15T04:20:59.954Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Food detail pre comment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-09-15T05:16:40.513Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "7",
+        "object_repr": "Pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description1\", \"Description2\", \"Description3\", \"Article title\", \"Description short\", \"Prep time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-09-15T05:18:05.411Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "7",
+        "object_repr": "Pizza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-09-15T05:21:34.690Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description1\", \"Description2\", \"Description3\", \"Description4\", \"Article title\", \"Prep time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-09-15T05:22:54.791Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "foods",
+            "food"
+        ],
+        "object_id": "3",
+        "object_repr": "Bread",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2020-09-15T19:24:28.928Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "2",
+        "object_repr": "Workouts Through Your Community",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is workout\", \"Is for women\", \"Is for men\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2020-09-15T19:24:40.581Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "1",
+        "object_repr": "What Does it Mean to Live an Organic Lifestyle?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is health\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2020-09-15T19:33:03.511Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "3",
+        "object_repr": "Travel Espa\u00f1a",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2020-09-15T19:35:49.911Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "4",
+        "object_repr": "Magical Beaches - Tobago",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2020-09-15T19:41:04.487Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "3",
+        "object_repr": "Travel Espa\u00f1a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2020-09-15T19:51:43.757Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "5",
+        "object_repr": "A HIIT Workout at Home",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2020-09-15T23:29:58.954Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "2",
+        "object_repr": "Workouts Through Your Community",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2020-09-16T01:57:14.759Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "6",
+        "object_repr": "Healthy lifestyle: 5 keys to a longer life",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2020-09-16T04:38:25.026Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "7",
+        "object_repr": "How The Female Brain Works",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2020-09-16T04:38:59.702Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "4",
+        "object_repr": "Magical Beaches - Tobago",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is travel\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2020-09-16T04:39:13.712Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "4",
+        "object_repr": "Magical Beaches - Tobago",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is new for blog\", \"Is travel\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2020-09-16T04:39:53.113Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "lifestyle",
+            "lifestyle"
+        ],
+        "object_id": "6",
+        "object_repr": "Healthy lifestyle: 5 keys to a longer life",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2020-09-16T04:59:22.941Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Side category image1\", \"Side category image2\", \"Side category image3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2020-09-16T19:04:17.307Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "pages",
+            "ashley"
+        ],
+        "object_id": "1",
+        "object_repr": "Ashley Woolley",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Food detail pre comment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2020-09-16T23:59:39.550Z",
+        "user": [
+            "ashleyadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "ashleyadmin",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 }
 ]
