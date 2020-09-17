@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Food, Comment, Dashboard
+from .models import Food, Comment, Dashboard, Subscribers
 
 # Register your models here.
 class CommentAdmin(admin.ModelAdmin):
@@ -14,6 +14,12 @@ class FoodAdmin(admin.ModelAdmin):
     search_fields = ['recipe_title']
     list_per_page=25
 
+class SubscribersAdmin(admin.ModelAdmin):
+    list_display = ('email',)
+    list_display_link = ('email')
+    list_per_page = 25
+
 admin.site.register(Food, FoodAdmin)
 admin.site.register(Comment, CommentAdmin)
 admin.site.register(Dashboard)
+admin.site.register(Subscribers, SubscribersAdmin)

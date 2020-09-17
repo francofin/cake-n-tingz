@@ -7,16 +7,11 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-8 text-wrap text-center heading-section ftco-animate">
           {% for item in ashley_info %}
-          <h2 class="mb-4"><span>Subcribe to get New Recipes</span></h2>
+          <h2 class="mb-4"><span>Register now for more great articles.</span></h2>
           <p>{{ item.food_detail_pre_comment | safe   }}</p>
           <div class="row d-flex justify-content-center mt-4 mb-4">
-            <div class="col-md-8">
-              <form action="#" class="subscribe-form">
-                <div class="form-group d-flex">
-                  <input type="text" class="form-control" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="submit px-3">
-                </div>
-              </form>
+            <div class="col-md-8" style="align-items: center;">
+                  <a href="{% url 'register' %}" style="background: black; padding: 15px; border-radius: 10px; font-size: 25px;">Register</a>
             </div>
           </div>
           {% endfor %}

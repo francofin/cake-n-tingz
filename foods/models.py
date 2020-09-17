@@ -180,6 +180,7 @@ class Food(models.Model):
     is_for_slider = models.BooleanField(default=False)
     is_for_slider2 = models.BooleanField(default=False)
     is_for_home_page_side = models.BooleanField(default=False)
+    is_latest = models.BooleanField(default=False)
 
     def __str__(self):
         return self.recipe_title
@@ -204,6 +205,13 @@ class Comment(models.Model):
     comments = models.TextField()
     user_id = models.IntegerField(blank=True)
     create_date = models.DateTimeField(blank=True, default=datetime.now)
+
+    def __str__(self):
+        return self.email
+
+class Subscribers(models.Model):
+
+    email = models.EmailField(max_length=100)
 
     def __str__(self):
         return self.email

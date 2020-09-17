@@ -91,17 +91,17 @@ WSGI_APPLICATION = 'cakes.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'ashley_db',
-#         'USER': 'postgres',
-#         'PASSWORD': 'Fj300589',
-#         'HOST': 'localhost',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ashley_db',
+        'USER': 'postgres',
+        'PASSWORD': 'Fj300589',
+        'HOST': 'localhost',
+    }
+}
 
-DATABASES = {'default':dj_database_url.config(default='postgres://postgres:Fj300589@localhost/ashley_db')}
+# DATABASES = {'default':dj_database_url.config(default='postgres://postgres:Fj300589@localhost/ashley_db')}
 
 
 # Password validation

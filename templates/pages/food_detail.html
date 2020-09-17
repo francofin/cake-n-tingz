@@ -25,15 +25,15 @@
             <h2 class="mb-3">{{food_recipe.article_title}}</h2>
             <p>{{ food_recipe.description1 | safe }}.</p>
             <p>
-              <img src="{% static 'images/image_6.jpg' %}" alt="" class="img-fluid">
+              <img src="{{food_recipe.food_photo_1.url}}" alt="" class="img-fluid">
             </p>
             <p>{{ food_recipe.description2 | safe }}!</p>
             <p>
-              <img src="{% static 'images/image_4.jpg' %}" alt="" class="img-fluid">
+              <img src="{{food_recipe.food_photo_2.url}}" alt="" class="img-fluid">
             </p>
             <p>{{ food_recipe.description3 | safe }}.</p>
             <p>
-              <img src="{% static 'images/image_4.jpg' %}" alt="" class="img-fluid">
+              <img src="{{food_recipe.food_photo_3.url}}" alt="" class="img-fluid">
             </p>
             <p>{{ food_recipe.description4 | safe }}</p>
 

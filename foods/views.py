@@ -1,12 +1,15 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from foods.models import Food, Dashboard, Comment
+from foods.models import Food, Dashboard, Comment, Subscribers
 from pages.models import Ashley
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.contrib import messages
+from django.core.mail import send_mail
+
 
 # Create your views here.
 def foods(request):
     featured_foods = Food.objects.order_by('-created_date').filter(is_featured=True)
+    number_of_foods = Food.objects.order_by('-created_date').filter(is_latest=True)
     paginator = Paginator(featured_foods, 6)
     page = request.GET.get('page')
     page_food = paginator.get_page(page)
