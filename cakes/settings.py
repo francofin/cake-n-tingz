@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'x%+xbewh&hqnf@x^6vlt0#h8z(^8^_#49!(0w6acm=+w%ee2_x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -64,7 +64,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'cakes.urls'
@@ -91,17 +91,17 @@ WSGI_APPLICATION = 'cakes.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ashley_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Fj300589',
-        'HOST': 'localhost',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ashley_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Fj300589',
+#         'HOST': 'localhost',
+#     }
+# }
 
-# DATABASES = {'default':dj_database_url.config(default='postgres://postgres:Fj300589@localhost/ashley_db')}
+DATABASES = {'default':dj_database_url.config(default='postgres://postgres:Fj300589@localhost/ashley_db')}
 
 
 # Password validation
@@ -179,4 +179,4 @@ EMAIL_HOST_PASSWORD = 'wrgugwntcohlvylq'
 EMAIL_USE_TLS = True
 
 #whitenoise
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
